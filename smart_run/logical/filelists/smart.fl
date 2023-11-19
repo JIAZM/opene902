@@ -15,14 +15,37 @@ limitations under the License.
 
 +libext+.v+.h+.V+.sv+
 
--y ../logical/ahb
--y ../logical/apb
--y ../logical/common
--y ../logical/gpio
--y ../logical/mem
--y ../logical/pmu
--y ../logical/smpu
--y ../logical/uart
--y ../logical/wic
--y ../logical/timer
++incdir+$CODE_BASE_PATH/../smart_run/logical/ahb
++incdir+$CODE_BASE_PATH/../smart_run/logical/apb
++incdir+$CODE_BASE_PATH/../smart_run/logical/common
++incdir+$CODE_BASE_PATH/../smart_run/logical/gpio
++incdir+$CODE_BASE_PATH/../smart_run/logical/mem
++incdir+$CODE_BASE_PATH/../smart_run/logical/pmu
++incdir+$CODE_BASE_PATH/../smart_run/logical/smpu
++incdir+$CODE_BASE_PATH/../smart_run/logical/uart
++incdir+$CODE_BASE_PATH/../smart_run/logical/wic
++incdir+$CODE_BASE_PATH/../smart_run/logical/timer
+
+-f $CODE_BASE_PATH/../smart_run/logical/ahb/ahb.fl
+-f $CODE_BASE_PATH/../smart_run/logical/apb/apb.fl
+-f $CODE_BASE_PATH/../smart_run/logical/common/common.fl
+-f $CODE_BASE_PATH/../smart_run/logical/gpio/gpio.fl
+-f $CODE_BASE_PATH/../smart_run/logical/mem/mem.fl
+-f $CODE_BASE_PATH/../smart_run/logical/pmu/pmu.fl
+-f $CODE_BASE_PATH/../smart_run/logical/smpu/smpu.fl
+-f $CODE_BASE_PATH/../smart_run/logical/uart/uart.fl
+-f $CODE_BASE_PATH/../smart_run/logical/wic/wic.fl
+-f $CODE_BASE_PATH/../smart_run/logical/timer/timer.fl
+-f $CODE_BASE_PATH/../smart_run/logical/tb/tb.fl
+
+-y $CODE_BASE_PATH/../smart_run/logical/ahb
+-y $CODE_BASE_PATH/../smart_run/logical/apb
+-y $CODE_BASE_PATH/../smart_run/logical/common
+-y $CODE_BASE_PATH/../smart_run/logical/gpio
+-y $CODE_BASE_PATH/../smart_run/logical/mem
+-y $CODE_BASE_PATH/../smart_run/logical/pmu
+-y $CODE_BASE_PATH/../smart_run/logical/smpu
+-y $CODE_BASE_PATH/../smart_run/logical/uart
+-y $CODE_BASE_PATH/../smart_run/logical/wic
+-y $CODE_BASE_PATH/../smart_run/logical/timer
 

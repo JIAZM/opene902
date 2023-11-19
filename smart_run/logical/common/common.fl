@@ -1,0 +1,9 @@
+$CODE_BASE_PATH/../smart_run/logical/common/clk_aligner.v
+$CODE_BASE_PATH/../smart_run/logical/common/clk_divider.v
+$CODE_BASE_PATH/../smart_run/logical/common/cpu_sub_system_ahb.v
+$CODE_BASE_PATH/../smart_run/logical/common/err_gen.v
+$CODE_BASE_PATH/../smart_run/logical/common/px_had_sync.v
+$CODE_BASE_PATH/../smart_run/logical/common/soc.v
+$CODE_BASE_PATH/../smart_run/logical/common/soc_gated_clk_cell.v
+$CODE_BASE_PATH/../smart_run/logical/common/sync.v
+$CODE_BASE_PATH/../smart_run/logical/common/tap2_sm.v

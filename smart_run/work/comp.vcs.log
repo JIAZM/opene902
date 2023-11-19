@@ -2,7 +2,7 @@ Command: vcs -full64 -LDFLAGS -Wl,--no-as-needed -sverilog -full64 -kdb -lca -de
 +nospecify +notimingchecks -timescale=1ns/100fs +define+no_warning +define+TSMC_NO_WARNING \
 -f ../logical/filelists/sim.fl -l comp.vcs.log
                          Chronologic VCS (TM)
-       Version O-2018.09-SP2_Full64 -- Sun Nov 19 22:28:40 2023
+       Version O-2018.09-SP2_Full64 -- Mon Nov 20 00:24:15 2023
                Copyright (c) 1991-2018 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -104,110 +104,50 @@ Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FAC
 Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/tcipif/rtl/cr_tcipif_dummy_bus.v'
 Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/tcipif/rtl/cr_tcipif_top.v'
 Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clk/rtl/gated_clk_cell.v'
-Parsing design file '../logical/tb/tb.v'
-Parsing library directory file '../logical/common/soc.v'
-Parsing library directory file '../logical/tb/mnt.v'
-Parsing library directory file '../logical/tb/uart_mnt.v'
-Parsing library directory file '../logical/ahb/ahb.v'
-Parsing library directory file '../logical/ahb/ahb_fifo.v'
-Parsing library directory file '../logical/apb/apb.v'
-Parsing library directory file '../logical/common/cpu_sub_system_ahb.v'
-Parsing library directory file '../logical/common/err_gen.v'
-Parsing library directory file '../logical/mem/mem_ctrl.v'
-Parsing library directory file '../logical/ahb/ahb_fifo_counter.v'
-Parsing library directory file '../logical/ahb/ahb_fifo_entry.v'
-Parsing library directory file '../logical/apb/apb_bridge.v'
-Parsing library directory file '../logical/common/clk_aligner.v'
-Parsing library directory file '../logical/common/clk_divider.v'
-Parsing library directory file '../logical/gpio/gpio.v'
-Parsing library directory file '../logical/mem/iahb_mem_ctrl.v'
-Parsing library directory file '../logical/mem/soc_fpga_ram.v'
-Parsing library directory file '../logical/pmu/pmu.v'
-Parsing library directory file '../logical/smpu/smpu_top.v'
-Parsing library directory file '../logical/uart/uart.v'
-Parsing library directory file '../logical/wic/wic_top.v'
-Parsing library directory file '../logical/timer/timer.v'
-Parsing library directory file '../logical/common/px_had_sync.v'
-Parsing library directory file '../logical/common/soc_gated_clk_cell.v'
-Parsing library directory file '../logical/common/sync.v'
-Parsing library directory file '../logical/common/tap2_sm.v'
-Parsing library directory file '../logical/gpio/gpio_apbif.v'
-Parsing library directory file '../logical/gpio/gpio_ctrl.v'
-Parsing library directory file '../logical/smpu/smpu_comp_hit.v'
-Parsing library directory file '../logical/uart/uart_apb_reg.v'
-Parsing library directory file '../logical/uart/uart_baud_gen.v'
-Parsing library directory file '../logical/uart/uart_ctrl.v'
-Parsing library directory file '../logical/uart/uart_receive.v'
-Parsing library directory file '../logical/uart/uart_trans.v'
-Parsing library directory file '../logical/wic/wic_awake_en_32.v'
-Parsing library directory file '../logical/wic/wic.v'
-Top Level Modules:
-       clic_kid_golden_ports
-       tb
-TimeScale is 1 ns / 100 fs
-Notice: Ports coerced to inout, use -notice for details
-Starting vcs inline pass...
-59 modules and 0 UDP read.
-recompiling module clic_kid_golden_ports
-recompiling module cr_ahbl_if
-recompiling module cr_ahbl_req_arb
-recompiling module cr_bmu_top
-recompiling module cr_clic_busif
-recompiling module cr_clic_ctrl
-recompiling module cr_clic_ff1_onehot
-recompiling module cr_clic_kid
-recompiling module cr_clic_kid_dummy
-recompiling module cr_clic_sel
-recompiling module cr_clint_top
-recompiling module cr_clkrst_top
-recompiling module cr_cp0_lpmd
-recompiling module cr_cp0_randclk
-recompiling module cr_cp0_srst
-recompiling module cr_cp0_top
-recompiling module cr_had_bkpt
-recompiling module cr_had_jtag2
-recompiling module cr_had_sync
-recompiling module cr_had_top
-recompiling module cr_had_trace
-recompiling module cr_iahbl_top
-recompiling module cr_ifu_ibuf_entry
-recompiling module cr_ifu_top
-recompiling module cr_iu_alu
-recompiling module cr_iu_branch
-recompiling module cr_iu_gated_clk_reg_timing
-recompiling module cr_iu_hs_split
-recompiling module cr_iu_lockup
-recompiling module cr_iu_mad
-recompiling module cr_iu_pcgen
-recompiling module cr_iu_randclk
-recompiling module cr_iu_rbus
-recompiling module cr_iu_retire
-recompiling module cr_iu_special
-recompiling module cr_iu_vector
-recompiling module cr_iu_wb
-recompiling module cr_lsu_top
-recompiling module cr_pmp_comp_hit
-recompiling module cr_pmp_top
-recompiling module cr_pwrm_top_dummy
-recompiling module cr_sahbl_top
-recompiling module cr_sys_io
-recompiling module cr_tcipif_top
-recompiling module tb
-recompiling module ahb
-recompiling module ahb_fifo
-recompiling module apb
-recompiling module err_gen
-recompiling module mem_ctrl
-50 of 59 modules done
-recompiling module clk_divider
-recompiling module iahb_mem_ctrl
-recompiling module smpu_top
-recompiling module uart
-recompiling module wic_top
-recompiling module timer
-recompiling module counter
-recompiling module smpu_comp_hit
-recompiling module wic
-All of 59 modules done
-../simv up to date
-CPU time: 2.619 seconds to compile + .413 seconds to elab + .165 seconds to link
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb/ahb_fifo.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb/ahb_fifo_counter.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb/ahb_fifo_entry.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb/ahb.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/apb/apb_bridge.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/apb/apb.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/clk_aligner.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/clk_divider.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/cpu_sub_system_ahb.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/err_gen.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/px_had_sync.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/soc.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/soc_gated_clk_cell.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/sync.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/tap2_sm.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/gpio/gpio_apbif.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/gpio/gpio_ctrl.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/gpio/gpio.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/mem/iahb_mem_ctrl.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/mem/mem_ctrl.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/mem/soc_fpga_ram.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/pmu/pmu.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/smpu/smpu_comp_hit.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/smpu/smpu_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_apb_reg.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_baud_gen.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_ctrl.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_receive.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_trans.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/wic/wic.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/wic/wic_awake_en_32.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/wic/wic_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/timer/timer.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v'
+
+Error-[UM] Undefined macro
+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v, 58
+  Undefined macro exists as: 'clk'   
+  "/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v",
+  58: token is '`clk'
+  always @(posedge `clk or negedge `rst_b)
+                       ^
+
+1 warning
+1 error
+CPU time: .286 seconds to compile

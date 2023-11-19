@@ -230,6 +230,7 @@ LoadSimulationResults = "\"/file/pub/project/billboards/hdl/uart/compile/uart.fs
 nWaveOpenFsdbDirHistory = "\"/file/pub/project/pll_output_gate/sim/signal.rc\"" "\"/file/pub/project/riscv/XuanTie/opene902/smart_run/work/novas.fsdb\""
 [Form]
 version = Verdi_O-2018.09-SP2
+wave/unknownSave.fm = 100,100,520,275
 [General]
 autoSaveSession = FALSE
 TclAutoSource = 
@@ -402,8 +403,8 @@ saveSigDlg = 687,360,561,396
 SetWindowTimeUnitDialog = 624,530,463,99
 importDesignForm = 485,286,725,584
 openFileDlg = 527,316,642,523
-QwWarnMsgDlg = 666,640,600,250
-QwUserAskDlg = 778,944,324,136
+QwWarnMsgDlg = 666,830,600,250
+QwUserAskDlg = 778,917,324,163
 [Relationship]
 hideRecursiceNode = FALSE
 [Session Cache]
@@ -602,7 +603,7 @@ pdmlMacro = ID_BLACK
 font = FIXED20
 annotFont = Helvetica_M_R_14
 [Text.1]
-viewport = 8 47 1680 1004 45
+viewport = 0 26 1920 1025 45
 [TextPrinter]
 Orientation = Landscape
 Indicator = FALSE
@@ -703,28 +704,28 @@ visualIndex = 1
 isHidden = TRUE
 isUserChangeColumnVisible = FALSE
 [VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column1]
-name = Time
-width = 60
-visualIndex = 0
-isHidden = TRUE
-isUserChangeColumnVisible = FALSE
-[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column2]
-name = Type
-width = 60
-visualIndex = 3
-isHidden = FALSE
-isUserChangeColumnVisible = FALSE
-[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column3]
 name = Message
 width = 60
 visualIndex = 4
 isHidden = FALSE
 isUserChangeColumnVisible = FALSE
-[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column4]
+[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column2]
 name = Code
 width = 60
 visualIndex = 2
 isHidden = TRUE
+isUserChangeColumnVisible = FALSE
+[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column3]
+name = Time
+width = 60
+visualIndex = 0
+isHidden = TRUE
+isUserChangeColumnVisible = FALSE
+[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column4]
+name = Type
+width = 60
+visualIndex = 3
+isHidden = FALSE
 isUserChangeColumnVisible = FALSE
 [Vi]
 ViFont = "Clean 14"
@@ -745,7 +746,7 @@ scope_to_save_with_macro
 open_file_dir
 open_rc_file_dir
 getSignalForm = 0 0 800 479 100 30 100 30
-viewPort = 0 31 1680 683 100 65
+viewPort = 0 31 1920 210 100 65
 signalSpacing = 5
 digitalSignalHeight = 15
 analogSignalHeight = 98
@@ -1234,7 +1235,6 @@ tsCellModelSetting = 0
 tsContBAError = FALSE
 tsMaxLeafNum = 32768
 [schematics]
-viewport = 178 262 638 516
 schBackgroundColor_qt = #000000 qt_solidLine 1
 schBodyColor_qt = #ffb973 qt_solidLine 1
 schAsmBodyColor_qt = #a5a5ff qt_solidLine 1
@@ -1468,6 +1468,7 @@ IsShowConstantValue = True
 clockTreeBrowser-MarkerColor = ID_YELLOW5
 clockTreeBrowser-SelectedColor = ID_BLUE5
 clockTreeBrowser-ViolationColor = ID_RED5
+viewport = 0 26 1920 1025
 [schematics_print]
 Signature = FALSE
 DesignName = PCU
@@ -1626,7 +1627,7 @@ AddImportArgument = FALSE
 LineBreakWithScope = TRUE
 StopAfterCompileOption = -s
 [wave.0]
-viewPort = 0 31 1680 683 100 65
+viewPort = 0 31 1920 210 100 65
 [wave.1]
 viewPort = 127 219 960 332 100 65
 [wave.2]

@@ -95,30 +95,567 @@ Command arguments:
                 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl
         -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/filelists/smart.fl
             +libext+.v+.h+.V+.sv+
-            -y ../logical/ahb
-            -y ../logical/apb
-            -y ../logical/common
-            -y ../logical/gpio
-            -y ../logical/mem
-            -y ../logical/pmu
-            -y ../logical/smpu
-            -y ../logical/uart
-            -y ../logical/wic
-            -y ../logical/timer
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/apb
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/gpio
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/mem
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/pmu
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/smpu
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/wic
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/timer
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb/ahb.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb/ahb_fifo.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb/ahb_fifo_counter.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb/ahb_fifo_entry.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb/ahb.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/apb/apb.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/apb/apb_bridge.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/apb/apb.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/common.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/clk_aligner.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/clk_divider.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/cpu_sub_system_ahb.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/err_gen.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/px_had_sync.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/soc.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/soc_gated_clk_cell.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/sync.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common/tap2_sm.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/gpio/gpio.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/gpio/gpio_apbif.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/gpio/gpio_ctrl.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/gpio/gpio.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/mem/mem.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/mem/iahb_mem_ctrl.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/mem/mem_ctrl.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/mem/soc_fpga_ram.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/pmu/pmu.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/pmu/pmu.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/smpu/smpu.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/smpu/smpu_comp_hit.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/smpu/smpu_top.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_apb_reg.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_baud_gen.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_ctrl.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_receive.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart_trans.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart/uart.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/wic/wic.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/wic/wic.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/wic/wic_awake_en_32.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/wic/wic_top.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/timer/timer.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/timer/timer.v
+            -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.fl
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v
+                /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/ahb
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/apb
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/common
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/gpio
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/mem
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/pmu
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/smpu
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/uart
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/wic
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/timer
         -f /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/filelists/tb.fl
             +libext+.v+.h+.V+.sv+
-            +incdir+../logical/tb+
-            -y ../logical/tb
-            ../logical/tb/tb.v
+            +incdir+/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb+
+            -y /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb
+            /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v
 
 
 *Error* source file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl' is a directory
 
 
-*Error* failed to open source file "../logical/tb/tb.v" with read access: No such file or directory
+*Error* macro `clk not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 58: 
 
+*Error* Syntax error at negedge
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 58: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 58: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 60: 
+
+*Error* Syntax error at ;
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 61: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 62: 
+
+*Error* Syntax error at <=
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 63: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 64: 
+
+*Error* macro `clk not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 66: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 67: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 68: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 69: 
+
+*Error* macro `clk not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 72: 
+
+*Error* Syntax error at negedge
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 72: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 72: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 74: 
+
+*Error* Syntax error at ;
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 75: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 76: 
+
+*Error* Syntax error at <=
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 77: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 78: 
+
+*Error* macro `clk not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 80: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 81: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 82: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 83: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 84: 
+
+*Error* macro `clk not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 102: 
+
+*Error* Syntax error at negedge
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 102: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 102: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 104: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 105: 
+
+*Error* failed to find symbol 'i'
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 106: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 108: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 109: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 110: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 111: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 113: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 114: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 115: 
+
+*Error* macro `clk not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 139: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 140: 
+
+*Error* Syntax error at $fwrite
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 143: 
+
+*Error* Syntax error at $fwrite
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 144: 
+
+*Error* failed to find symbol 'i'
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 145: 
+
+*Error* Syntax error at $fwrite
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 149: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 150: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 151: 
+
+*Error* Syntax error at $fwrite
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 153: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 154: 
+
+*Error* Syntax error at $fwrite
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 157: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 158: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 159: 
+
+*Error* Syntax error at $fwrite
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 160: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 161: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 162: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 58: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 66: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 72: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 80: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 102: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 139: 
+
+*Error* invalid LHS in initial part of for statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 106: 
+
+*Error* invalid LHS in initial part of for statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/mnt.v", 145: 
+
+*Error* macro `CLK_PERIOD not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 24: 
+
+*Error* Syntax error at 1000000000
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 24: 
+
+*Error* macro `clk not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 31: 
+
+*Error* Syntax error at negedge
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 31: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 31: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 33: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 34: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 35: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 36: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 37: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 39: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 40: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 41: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 43: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 44: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 45: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 62: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 63: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 64: 
+
+*Error* Syntax error at ;
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 65: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 66: 
+
+*Error* Syntax error at <=
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 67: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 68: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 73: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 74: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 75: 
+
+*Error* Syntax error at ;
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 76: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 77: 
+
+*Error* Syntax error at <=
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 78: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 79: 
+
+*Error* Syntax error at <=
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 80: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 81: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 83: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 84: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 85: 
+
+*Error* Syntax error at ;
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 86: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 87: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 88: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 89: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 90: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 91: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 93: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 94: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 95: 
+
+*Error* Syntax error at ;
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 96: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 97: 
+
+*Error* Syntax error at <=
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 98: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 99: 
+
+*Error* Syntax error at <=
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 100: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 101: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 103: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 104: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 105: 
+
+*Error* Syntax error at ;
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 106: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 107: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 108: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 109: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 110: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 111: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 115: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 116: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 117: 
+
+*Error* Syntax error at ;
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 118: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 119: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 120: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 121: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 122: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 123: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 125: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 126: 
+
+*Error* macro `rst_b not defined
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 127: 
+
+*Error* Syntax error at begin
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 128: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 129: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 130: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 131: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 133: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 134: 
+
+*Error* Syntax error at else
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 135: 
+
+*Error* Syntax error at [
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 137: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 138: 
+
+*Error* Syntax error at end
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 139: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 31: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 62: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 73: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 83: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 93: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 103: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 115: 
+
+*Error* missing event in event statement
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 125: 
+
+*Error* Syntax error at integer
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v", 50: 
 Highest level modules:
 clic_kid_golden_ports
-openE902
+tb
 
-Total	2 error(s),   0 warning(s)
+
+*Error* failed to find identifier FCPU
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/uart_mnt.v", 26: 
+
+*Error* failed to find identifier FILE
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v", 137: 
+
+*Error* failed to find identifier FILE
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v", 138: 
+
+*Error* failed to find identifier FILE
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v", 166: 
+
+*Error* failed to find identifier FILE
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v", 167: 
+
+*Error* failed to find identifier FILE
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v", 201: 
+
+*Error* failed to find identifier FILE
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v", 202: 
+
+*Error* failed to find identifier FILE
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v", 215: 
+
+*Error* failed to find identifier FILE
+"/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/tb/tb.v", 216: 
+Total	162 error(s),   0 warning(s)

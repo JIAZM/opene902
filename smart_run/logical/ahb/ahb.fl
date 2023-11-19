@@ -1,0 +1,4 @@
+$CODE_BASE_PATH/../smart_run/logical/ahb/ahb_fifo.v
+$CODE_BASE_PATH/../smart_run/logical/ahb/ahb_fifo_counter.v
+$CODE_BASE_PATH/../smart_run/logical/ahb/ahb_fifo_entry.v
+$CODE_BASE_PATH/../smart_run/logical/ahb/ahb.v

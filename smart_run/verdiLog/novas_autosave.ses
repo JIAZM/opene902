@@ -18,11 +18,16 @@ AnnotationShow = 0
 Console = FALSE
 powerDumped = 0
 [hb]
-viewport = 8 47 1680 1004 0 0 652 1678
+postSimFile = /file/pub/project/riscv/XuanTie/opene902/smart_run/work/novas.fsdb
+syncTime = 0
+viewport = 0 26 1920 1025 0 0 53 1918
+activeNode = "tb"
+activeScope = "tb.x_uart_mnt"
+activeFile = "/home/jiazm/pub/project/riscv/XuanTie/opene902/smart_run/logical/tb/uart_mnt.v"
 interactiveMode = False
 viewType = Source
 simulatorMode = False
-sourceBeginLine = 0
+sourceBeginLine = 18
 baMode = False
 srcLineNum = True
 AutoWrap = True
@@ -39,12 +44,31 @@ DnDtraceCrossHierOnly = True
 traceIncTopPort = False
 leadingZero = False
 signalPane = False
+Scope1 = "tb.x_uart_mnt"
+Scope2 = "tb"
+Scope3 = "tb.x_mnt"
+Scope4 = "tb.x_soc.x_cpu_sub_system_ahb.x_e902"
+Scope5 = "tb.x_soc.x_cpu_sub_system_ahb"
+Scope6 = "tb.x_soc"
+Scope7 = "clic_kid_golden_ports"
+multipleSelection = 1 18 2 0 0
 sdfCheckUndef = FALSE
 simFlow = FALSE
+[hb.design]
+importCmd = "-f" "./logical/filelists/sim.fl" 
+invokeDir = /file/pub/project/riscv/XuanTie/opene902/smart_run
+[hb.sourceTab.1]
+scope = tb.x_uart_mnt
+File = /home/jiazm/pub/project/riscv/XuanTie/opene902/smart_run/logical/tb/uart_mnt.v
+Line = 19
+[nMemoryManager]
+WaveformFile = /file/pub/project/riscv/XuanTie/opene902/smart_run/work/novas.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
 [wave.0]
-viewPort = 0 31 1680 683 100 65
+viewPort = 0 31 1920 210 100 65
 primaryWindow = TRUE
-Empty = /file/pub/project/riscv/XuanTie/opene902/smart_run/verdiLog/novas_autosave.ses.wave.0
+SessionFile = /file/pub/project/riscv/XuanTie/opene902/smart_run/verdiLog/novas_autosave.ses.wave.0
 displayGrid = FALSE
 hierarchicalName = FALSE
 snap = TRUE

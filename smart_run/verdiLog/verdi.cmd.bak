@@ -1,5 +1,162 @@
-debImport "-f" "../logical/filelists/sim.fl"
+debImport "-f" "./logical/filelists/sim.fl"
+nsMsgSwitchTab -tab general
+debLoadSimResult \
+           /file/pub/project/riscv/XuanTie/opene902/smart_run/work/novas.fsdb
 wvCreateWindow
-wvOpenFile -win $_nWave2 \
-           {/file/pub/project/riscv/XuanTie/opene902/smart_run/novas.fsdb}
-debExit
+nsMsgSwitchTab -tab cmpl
+srcHBSelect "tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb" -delim "."
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb.x_soc" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb.x_soc" -delim "."
+srcHBSelect "tb.x_soc" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb" -delim "."
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb" -delim "."
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb.x_soc" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb.x_soc" -delim "."
+srcHBSelect "tb.x_soc" -win $_nTrace1
+srcHBSelect "tb.x_soc" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb.x_soc" -delim "."
+srcHBSelect "tb.x_soc" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "haddr_s1" -line 62 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcHBSelect "tb.x_soc.x_cpu_sub_system_ahb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb.x_soc.x_cpu_sub_system_ahb" -delim "."
+srcHBSelect "tb.x_soc.x_cpu_sub_system_ahb" -win $_nTrace1
+srcHBSelect "tb.x_soc.x_cpu_sub_system_ahb.x_e902" -win $_nTrace1
+srcHBSelect "tb.x_soc.x_cpu_sub_system_ahb.x_e902" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb.x_soc.x_cpu_sub_system_ahb.x_e902" -delim "."
+srcHBSelect "tb.x_soc.x_cpu_sub_system_ahb.x_e902" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "cpu_pad_dfs_ack" -line 26 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcHBSelect "tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb" -delim "."
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb" -delim "."
+srcHBSelect "tb" -win $_nTrace1
+schCreateWindow -delim "." -win $_nSchema1 -scope "tb"
+schCreateWindow -delim "." -win $_nSchema1 -scope "tb"
+schZoomIn -win $_nSchema4 -pos 30811 31172
+schZoomIn -win $_nSchema4 -pos 30811 31172
+schZoomIn -win $_nSchema4 -pos 30811 31172
+schZoomIn -win $_nSchema4 -pos 30810 31172
+schZoomIn -win $_nSchema4 -pos 30693 31172
+schZoomIn -win $_nSchema4 -pos 30628 31172
+schZoomIn -win $_nSchema4 -pos 29870 31090
+schZoomIn -win $_nSchema4 -pos 29869 31090
+schZoomOut -win $_nSchema4 -pos 29869 31090
+schZoomOut -win $_nSchema4 -pos 29868 31090
+schZoomOut -win $_nSchema4 -pos 29867 31089
+schZoomOut -win $_nSchema4 -pos 29867 31089
+schZoomOut -win $_nSchema4 -pos 29867 31088
+schZoomOut -win $_nSchema4 -pos 29866 31087
+schZoomOut -win $_nSchema4 -pos 29866 31086
+schCloseWindow -win $_nSchema4
+schCloseWindow -win $_nSchema3
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "virtual_counter\[31:0\]" -line 284 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcHBSelect "tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb" -delim "."
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb" -delim "."
+srcHBSelect "tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "mem" -line 107 -pos 1 -win $_nTrace1
+srcAction -pos 106 15 0 -win $_nTrace1 -name "mem" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "mem" -line 107 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "mem_inst_temp" -line 95 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "cycle_count\[31:0\]" -line 150 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "retire_inst_in_period\[31:0\]" -line 174 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -line 258 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "jclk" -line 261 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcSelect -signal "uart0_sin" -line 259 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "uart0_sout" -line 260 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "jtg_tms" -line 269 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rst_b" -line 273 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvZoom -win $_nWave2 0.000000 18105958.646617
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "virtual_counter\[31:0\]" -line 325 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "x_uart_mnt" -line 251 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "x_mnt" -line 249 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "x_uart_mnt" -line 251 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "x_uart_mnt" -line 251 -pos 1 -win $_nTrace1
+srcAction -pos 250 2 6 -win $_nTrace1 -name "x_uart_mnt" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "x_mnt" -line 249 -pos 1 -win $_nTrace1
+srcAction -pos 248 2 3 -win $_nTrace1 -name "x_mnt" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "x_uart_mnt" -line 251 -pos 1 -win $_nTrace1
+srcAction -pos 250 2 4 -win $_nTrace1 -name "x_uart_mnt" -ctrlKey off

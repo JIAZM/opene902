@@ -1,0 +1,6 @@
+$CODE_BASE_PATH/../smart_run/logical/uart/uart_apb_reg.v
+$CODE_BASE_PATH/../smart_run/logical/uart/uart_baud_gen.v
+$CODE_BASE_PATH/../smart_run/logical/uart/uart_ctrl.v
+$CODE_BASE_PATH/../smart_run/logical/uart/uart_receive.v
+$CODE_BASE_PATH/../smart_run/logical/uart/uart_trans.v
+$CODE_BASE_PATH/../smart_run/logical/uart/uart.v

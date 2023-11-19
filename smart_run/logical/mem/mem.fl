@@ -1,0 +1,3 @@
+$CODE_BASE_PATH/../smart_run/logical/mem/iahb_mem_ctrl.v
+$CODE_BASE_PATH/../smart_run/logical/mem/mem_ctrl.v
+$CODE_BASE_PATH/../smart_run/logical/mem/soc_fpga_ram.v

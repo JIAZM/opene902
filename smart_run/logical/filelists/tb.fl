@@ -14,8 +14,8 @@ limitations under the License.
 */
 +libext+.v+.h+.V+.sv+
 
-+incdir+../logical/tb+
++incdir+$CODE_BASE_PATH/../smart_run/logical/tb+
 
--y ../logical/tb
-../logical/tb/tb.v
+-y $CODE_BASE_PATH/../smart_run/logical/tb
+$CODE_BASE_PATH/../smart_run/logical/tb/tb.v
 
