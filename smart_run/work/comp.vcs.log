@@ -1,0 +1,213 @@
+Command: vcs -full64 -LDFLAGS -Wl,--no-as-needed -sverilog -full64 -kdb -lca -debug_access \
++nospecify +notimingchecks -timescale=1ns/100fs +define+no_warning +define+TSMC_NO_WARNING \
+-f ../logical/filelists/sim.fl -l comp.vcs.log
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Sun Nov 19 22:05:49 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS/VCS-MX Release Notes
+
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/cpu_cfig.h'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/clic_kid_golden_ports.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/biu/rtl/cr_ahbl_if.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/biu/rtl/cr_ahbl_req_arb.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/bmu/rtl/cr_bmu_dbus_if.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/bmu/rtl/cr_bmu_ibus_if.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/bmu/rtl/cr_bmu_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_arb.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_arb_kernel.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_busif.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_ctrl.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_ff1_onehot.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_kid.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_kid_dummy.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_sel.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clint/rtl/cr_clint_busif.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clint/rtl/cr_clint_regs.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clint/rtl/cr_clint_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clk/rtl/cr_clk_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clk/rtl/cr_clkrst_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/cr_core.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/cr_core_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/coretim/rtl/cr_coretim_top_dummy.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_iui.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_lpmd.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_oreg.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_randclk.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_srst.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_status.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/openE902.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_bkpt.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_ctrl.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_ddc.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_inst_bkpt_lite.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_jtag2.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_pin.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_regs.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_sync.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_sync_level.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_trace.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/biu/rtl/cr_iahbl_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ibuf.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ibuf_entry.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ibusif.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ifctrl.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ifdp.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_randclk.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_alu.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_branch.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_ctrl.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_decd.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_gated_clk_reg.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_gated_clk_reg_timing.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_hs_split.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_lockup.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_mad.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_oper.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_oper_gpr.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_pcgen.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_randclk.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_rbus.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_retire.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_special.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_vector.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_wb.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_ctrl.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_dp.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_randclk.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_unalign.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_acc_arb.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_comp_hit.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_enc.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_regs.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pwrm/rtl/cr_pwrm_top_dummy.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/rst/rtl/cr_rst_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/biu/rtl/cr_sahbl_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/cr_sys_io.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/tcipif/rtl/cr_tcipif_behavior_bus.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/tcipif/rtl/cr_tcipif_dummy_bus.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/tcipif/rtl/cr_tcipif_top.v'
+Parsing design file '/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clk/rtl/gated_clk_cell.v'
+Parsing design file '../logical/tb/tb.v'
+Parsing library directory file '../logical/common/soc.v'
+Parsing library directory file '../logical/tb/mnt.v'
+Parsing library directory file '../logical/tb/uart_mnt.v'
+Parsing library directory file '../logical/ahb/ahb.v'
+Parsing library directory file '../logical/ahb/ahb_fifo.v'
+Parsing library directory file '../logical/apb/apb.v'
+Parsing library directory file '../logical/common/cpu_sub_system_ahb.v'
+Parsing library directory file '../logical/common/err_gen.v'
+Parsing library directory file '../logical/mem/mem_ctrl.v'
+Parsing library directory file '../logical/ahb/ahb_fifo_counter.v'
+Parsing library directory file '../logical/ahb/ahb_fifo_entry.v'
+Parsing library directory file '../logical/apb/apb_bridge.v'
+Parsing library directory file '../logical/common/clk_aligner.v'
+Parsing library directory file '../logical/common/clk_divider.v'
+Parsing library directory file '../logical/gpio/gpio.v'
+Parsing library directory file '../logical/mem/iahb_mem_ctrl.v'
+Parsing library directory file '../logical/mem/soc_fpga_ram.v'
+Parsing library directory file '../logical/pmu/pmu.v'
+Parsing library directory file '../logical/smpu/smpu_top.v'
+Parsing library directory file '../logical/uart/uart.v'
+Parsing library directory file '../logical/wic/wic_top.v'
+Parsing library directory file '../logical/timer/timer.v'
+Parsing library directory file '../logical/common/px_had_sync.v'
+Parsing library directory file '../logical/common/soc_gated_clk_cell.v'
+Parsing library directory file '../logical/common/sync.v'
+Parsing library directory file '../logical/common/tap2_sm.v'
+Parsing library directory file '../logical/gpio/gpio_apbif.v'
+Parsing library directory file '../logical/gpio/gpio_ctrl.v'
+Parsing library directory file '../logical/smpu/smpu_comp_hit.v'
+Parsing library directory file '../logical/uart/uart_apb_reg.v'
+Parsing library directory file '../logical/uart/uart_baud_gen.v'
+Parsing library directory file '../logical/uart/uart_ctrl.v'
+Parsing library directory file '../logical/uart/uart_receive.v'
+Parsing library directory file '../logical/uart/uart_trans.v'
+Parsing library directory file '../logical/wic/wic_awake_en_32.v'
+Parsing library directory file '../logical/wic/wic.v'
+Top Level Modules:
+       clic_kid_golden_ports
+       tb
+TimeScale is 1 ns / 100 fs
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+59 modules and 0 UDP read.
+recompiling module clic_kid_golden_ports
+recompiling module cr_ahbl_if
+recompiling module cr_ahbl_req_arb
+recompiling module cr_bmu_top
+recompiling module cr_clic_busif
+recompiling module cr_clic_ctrl
+recompiling module cr_clic_ff1_onehot
+recompiling module cr_clic_kid
+recompiling module cr_clic_kid_dummy
+recompiling module cr_clic_sel
+recompiling module cr_clint_top
+recompiling module cr_clkrst_top
+recompiling module cr_cp0_lpmd
+recompiling module cr_cp0_randclk
+recompiling module cr_cp0_srst
+recompiling module cr_cp0_top
+recompiling module cr_had_bkpt
+recompiling module cr_had_jtag2
+recompiling module cr_had_sync
+recompiling module cr_had_top
+recompiling module cr_had_trace
+recompiling module cr_iahbl_top
+recompiling module cr_ifu_ibuf_entry
+recompiling module cr_ifu_top
+recompiling module cr_iu_alu
+recompiling module cr_iu_branch
+recompiling module cr_iu_gated_clk_reg_timing
+recompiling module cr_iu_hs_split
+recompiling module cr_iu_lockup
+recompiling module cr_iu_mad
+recompiling module cr_iu_pcgen
+recompiling module cr_iu_randclk
+recompiling module cr_iu_rbus
+recompiling module cr_iu_retire
+recompiling module cr_iu_special
+recompiling module cr_iu_vector
+recompiling module cr_iu_wb
+recompiling module cr_lsu_top
+recompiling module cr_pmp_comp_hit
+recompiling module cr_pmp_top
+recompiling module cr_pwrm_top_dummy
+recompiling module cr_sahbl_top
+recompiling module cr_sys_io
+recompiling module cr_tcipif_top
+recompiling module tb
+recompiling module ahb
+recompiling module ahb_fifo
+recompiling module apb
+recompiling module err_gen
+recompiling module mem_ctrl
+50 of 59 modules done
+recompiling module clk_divider
+recompiling module iahb_mem_ctrl
+recompiling module smpu_top
+recompiling module uart
+recompiling module wic_top
+recompiling module timer
+recompiling module counter
+recompiling module smpu_comp_hit
+recompiling module wic
+All of 59 modules done
+../simv up to date
+CPU time: 2.599 seconds to compile + .429 seconds to elab + .181 seconds to link

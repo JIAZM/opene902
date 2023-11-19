@@ -1,0 +1,298 @@
+0 
+40
++define+TSMC_NO_WARNING
++define+no_warning
++itf+/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
++nospecify
++notimingchecks
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -Wl,--no-as-needed -rdynamic
+-Mobjects= /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvirsim.so /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/liberrorinf.so /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/include
+-P
+-Xufe=2steps
+-debug_access
+-f ../logical/filelists/sim.fl
+-fsdb
+-full64
+-full64
+-gen_obj
+-kdb
+-l
+-lca
+-picarchive
+-sverilog
+-timescale=1ns/100fs
+/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/bin/vcs1
+/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+comp.vcs.log
+113
+sysc_uni_pwd=/home/jiazm/pub/project/riscv/XuanTie/opene902/smart_run/work
+XMODIFIERS=@im=fcitx
+XDG_VTNR=1
+XDG_SESSION_TYPE=x11
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+XDG_SESSION_ID=3
+XDG_SESSION_DESKTOP=KDE
+XDG_SESSION_CLASS=user
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_DATA_DIRS=/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/opt/apps/com.alibabainc.dingtalk/entries:/opt/apps/com.qq.weixin.deepin/entries
+XDG_CURRENT_DESKTOP=KDE
+XDG_CONFIG_DIRS=/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings
+XCURSOR_THEME=breeze_cursors
+XAUTHORITY=/tmp/xauth-1000-_0
+VMR_MODE_FLAG=64
+VERDI_HOME=/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2
+VCS_MX_HOME_INTERNAL=1
+VCS_MX_HOME=/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=comp.vcs.log
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64
+TOOL_EXTENSION=/opt/itools/Xuantie-900-toolschain/Xuantie-900-gcc-elf-newlib-x86_64-V2.0.3/bin
+TERMINFO=/usr/share/terminfo
+STARRC_HOME=/opt/itools/Synopsys/starrc/O-2018.06-SP1
+SSH_AUTH_SOCK=/tmp/ssh-w0NwBSxP4ARQ/agent.1613
+SSH_AGENT_PID=1658
+SPYGLASS_HOME=/opt/itools/Synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/
+SPYGLASS_DC_PATH=/opt/itools/Synopsys/syn
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS= -no-pie 
+SIM=vcs
+SHELL_SESSION_ID=f8133c241da24864abb20022cb4fa855
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/opt/itools/Synopsys/scl/2018.06
+QT_SCREEN_SCALE_FACTORS=DP-1=1;DP-2=1;HDMI-1=1;DP-3=1;DP-4=1;
+QT_IM_MODULE=fcitx
+QT_AUTO_SCREEN_SCALE_FACTOR=0
+QT_ACCESSIBILITY=1
+PYTHONPATH=:/opt/itools/OpenRAM/compiler
+PTS_HOME=/opt/itools/Synopsys/pts/O-2018.06-SP1
+PROJ_HOME=/home/jiazm/pub/project
+PROFILEHOME=
+PERL_MM_OPT=INSTALL_BASE=/home/jiazm/perl5
+PERL_MB_OPT=--install_base "/home/jiazm/perl5"
+PERL_LOCAL_LIB_ROOT=/home/jiazm/perl5
+PERL5LIB=/home/jiazm/perl5/lib/perl5
+PAM_KWALLET5_LOGIN=/run/user/1000/kwallet5.socket
+OVA_UUM=0
+OPENRAM_TECH=/opt/itools/OpenRAM/technology
+OPENRAM_HOME=/opt/itools/OpenRAM/compiler
+NOVAS_RC=/home/jiazm/novas.rc
+NOVAS_HOME=/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2
+MTOOLS=/home/jiazm/mtools
+MFLAGS=-s
+MANDATORY_PATH=/usr/share/gconf/plasma.mandatory.path
+MAKE_TERMOUT=/dev/pts/2
+MAKE_TERMERR=/dev/pts/2
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=2
+MAKEFLAGS=s -- SIM=vcs CASE=hello_world DUMP=on
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_HOME=/opt/itools/Synopsys/lc/O-2018.06-SP1
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+KONSOLE_VERSION=191203
+KONSOLE_DBUS_WINDOW=/Windows/1
+KONSOLE_DBUS_SESSION=/Sessions/1
+KONSOLE_DBUS_SERVICE=:1.119
+KDE_SESSION_VERSION=5
+KDE_SESSION_UID=1000
+KDE_FULL_SESSION=true
+KDED_STARTED_BY_KDEINIT=1
+ITOOLS_HOME=/opt/itools
+IDENTIFY_HOME=/opt/itools/Synopsys/identify/N-2018.03-SP1
+ICC_HOME=/opt/itools/Synopsys/icc2/O-2018.06-SP1
+HISTTIMEFORMAT=%F %T -- 
+GTK_IM_MODULE=fcitx
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GOWIN_PROG=/opt/itools/Gowin/Programmer
+GOWIN_HOME=/opt/itools/Gowin/IDE
+FPGA_HOME=/opt/itools/Synopsys/fpga/N-2018.03-SP1
+FM_HOME=/opt/itools/Synopsys/fm/O-2018.06-SP1
+DUMP=on
+DESKTOP_SESSION=plasma
+DESIGNWARE_HOME=/opt/itools/Synopsys/dw
+DEFAULTS_PATH=/usr/share/gconf/plasma.default.path
+DC_HOME=/opt/itools/Synopsys/syn/O-2018.06-SP1
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+COLORTERM=truecolor
+COLORFGBG=0;15
+CODE_BASE_PATH=/home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY
+CLUTTER_IM_MODULE=xim
+CASE=hello_world
+BILL_PROJ=/home/jiazm/pub/project/billboards
+0
+133
+1696607756 ../logical/wic/wic.v
+1696607756 ../logical/wic/wic_awake_en_32.v
+1696607756 ../logical/uart/uart_trans.v
+1696607756 ../logical/uart/uart_receive.v
+1696607756 ../logical/uart/uart_ctrl.v
+1696607756 ../logical/uart/uart_baud_gen.v
+1696607756 ../logical/uart/uart_apb_reg.v
+1696607756 ../logical/smpu/smpu_comp_hit.v
+1696607756 ../logical/gpio/gpio_ctrl.v
+1696607756 ../logical/gpio/gpio_apbif.v
+1696607756 ../logical/common/tap2_sm.v
+1696607756 ../logical/common/sync.v
+1696607756 ../logical/common/soc_gated_clk_cell.v
+1696607756 ../logical/common/px_had_sync.v
+1696607756 ../logical/timer/timer.v
+1696607756 ../logical/wic/wic_top.v
+1696607756 ../logical/uart/uart.v
+1696607756 ../logical/smpu/smpu_top.v
+1696607756 ../logical/pmu/pmu.v
+1696607756 ../logical/mem/soc_fpga_ram.v
+1696607756 ../logical/mem/iahb_mem_ctrl.v
+1696607756 ../logical/gpio/gpio.v
+1696607756 ../logical/common/clk_divider.v
+1696607756 ../logical/common/clk_aligner.v
+1696607756 ../logical/apb/apb_bridge.v
+1696607756 ../logical/ahb/ahb_fifo_entry.v
+1696607756 ../logical/ahb/ahb_fifo_counter.v
+1696607756 ../logical/mem/mem_ctrl.v
+1696607756 ../logical/common/err_gen.v
+1696607756 ../logical/common/cpu_sub_system_ahb.v
+1696607756 ../logical/apb/apb.v
+1696607756 ../logical/ahb/ahb_fifo.v
+1696607756 ../logical/ahb/ahb.v
+1696607756 ../logical/tb/uart_mnt.v
+1696607756 ../logical/tb/mnt.v
+1696607756 ../logical/common/soc.v
+1696607756 ../logical/tb/tb.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clk/rtl/gated_clk_cell.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/tcipif/rtl/cr_tcipif_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/tcipif/rtl/cr_tcipif_dummy_bus.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/tcipif/rtl/cr_tcipif_behavior_bus.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/cr_sys_io.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/biu/rtl/cr_sahbl_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/rst/rtl/cr_rst_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pwrm/rtl/cr_pwrm_top_dummy.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_regs.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_enc.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_comp_hit.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/pmp/rtl/cr_pmp_acc_arb.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_unalign.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_randclk.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_dp.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/lsu/rtl/cr_lsu_ctrl.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_wb.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_vector.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_special.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_retire.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_rbus.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_randclk.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_pcgen.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_oper_gpr.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_oper.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_mad.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_lockup.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_hs_split.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_gated_clk_reg_timing.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_gated_clk_reg.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_decd.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_ctrl.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_branch.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_alu.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_randclk.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ifdp.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ifctrl.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ibusif.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ibuf_entry.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/ifu/rtl/cr_ifu_ibuf.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/biu/rtl/cr_iahbl_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_trace.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_sync_level.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_sync.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_regs.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_pin.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_jtag2.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_inst_bkpt_lite.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_ddc.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_ctrl.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/had/rtl/cr_had_bkpt.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/openE902.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_status.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_srst.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_randclk.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_oreg.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_lpmd.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cp0/rtl/cr_cp0_iui.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/coretim/rtl/cr_coretim_top_dummy.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/cr_core_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/cr_core.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clk/rtl/cr_clkrst_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clk/rtl/cr_clk_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clint/rtl/cr_clint_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clint/rtl/cr_clint_regs.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clint/rtl/cr_clint_busif.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_sel.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_kid_dummy.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_kid.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_ff1_onehot.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_ctrl.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_busif.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_arb_kernel.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/clic/rtl/cr_clic_arb.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/bmu/rtl/cr_bmu_top.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/bmu/rtl/cr_bmu_ibus_if.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/bmu/rtl/cr_bmu_dbus_if.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/biu/rtl/cr_ahbl_req_arb.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/biu/rtl/cr_ahbl_if.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/clic_kid_golden_ports.v
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/cpu/rtl/cpu_cfig.h
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/filelists/tb.fl
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/filelists/smart.fl
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/gen_rtl/filelists/E902_asic_rtl.fl
+1696607756 /home/jiazm/pub/project/riscv/XuanTie/opene902/E902_RTL_FACTORY/../smart_run/logical/filelists/ip.fl
+1700402643 ../logical/filelists/sim.fl
+1550753332 /opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+1551421246 /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
+4
+1551422344 /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvirsim.so
+1551421792 /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/liberrorinf.so
+1551421768 /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
+1551421789 /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvfs.so
+1700402752 simv.daidir
+-1 partitionlib
