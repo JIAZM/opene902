@@ -1,7 +1,7 @@
 Command: /home/jiazm/pub/project/riscv/XuanTie/opene902/smart_run/work/./simv -l run.vcs.log
 Chronologic VCS simulator copyright 1991-2018
 Contains Synopsys proprietary information.
-Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Nov 19 22:05 2023
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Nov 19 22:28 2023
 	******START TO LOAD PROGRAM******
 
 *Verdi* Loading libsscore_vcs201809.so
@@ -26,5 +26,5 @@ $finish called from file "../logical/tb/tb.v", line 204.
 $finish at simulation time            939250000
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 93925000000 fs
-CPU Time:      0.500 seconds;       Data structure size:   3.3Mb
-Sun Nov 19 22:05:53 2023
+CPU Time:      0.490 seconds;       Data structure size:   3.3Mb
+Sun Nov 19 22:28:44 2023

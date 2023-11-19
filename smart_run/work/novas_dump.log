@@ -225,7 +225,7 @@ KONSOLE_DBUS_SESSION=/Sessions/1
 PROFILEHOME=
 SPYGLASS_DC_PATH=/opt/itools/Synopsys/syn
 XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
-PERL5LIB=/home/jiazm/perl5/lib/perl5
+PERL5LIB=/home/jiazm/perl5/lib/perl5:/home/jiazm/perl5/lib/perl5:/home/jiazm/perl5/lib/perl5:/home/jiazm/perl5/lib/perl5:/home/jiazm/perl5/lib/perl5
 KONSOLE_VERSION=191203
 CLUTTER_IM_MODULE=xim
 KDE_SESSION_UID=1000
@@ -233,7 +233,7 @@ MFLAGS=
 LESSCLOSE=/usr/bin/lesspipe %s %s
 MAKEFLAGS= -- DUMP=on CASE=hello_world SIM=vcs
 XDG_SESSION_CLASS=user
-PYTHONPATH=:/opt/itools/OpenRAM/compiler
+PYTHONPATH=:/opt/itools/OpenRAM/compiler:/opt/itools/OpenRAM/compiler:/opt/itools/OpenRAM/compiler:/opt/itools/OpenRAM/compiler:/opt/itools/OpenRAM/compiler
 TERM=xterm-basic
 LC_IDENTIFICATION=zh_CN.UTF-8
 TERMINFO=/usr/share/terminfo
@@ -263,16 +263,16 @@ VCS_MX_HOME=/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2
 XDG_SESSION_ID=3
 CASE=hello_world
 LM_LICENSE_FILE=27000@NUC11PAHi7
-LD_LIBRARY_PATH=:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64
+LD_LIBRARY_PATH=:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64
 XDG_RUNTIME_DIR=/run/user/1000
 LC_TIME=zh_CN.UTF-8
 SIM=vcs
 QT_AUTO_SCREEN_SCALE_FACTOR=0
 XCURSOR_THEME=breeze_cursors
 XDG_DATA_DIRS=/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/opt/apps/com.alibabainc.dingtalk/entries:/opt/apps/com.qq.weixin.deepin/entries
-PERL_LOCAL_LIB_ROOT=/home/jiazm/perl5
+PERL_LOCAL_LIB_ROOT=/home/jiazm/perl5:/home/jiazm/perl5:/home/jiazm/perl5:/home/jiazm/perl5:/home/jiazm/perl5
 KDE_FULL_SESSION=true
-PATH=/home/jiazm/perl5/bin:/home/jiazm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/itools/Synopsys/scl/2018.06/linux64/bin:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/bin:/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/bin:/opt/itools/Synopsys/syn/O-2018.06-SP1/bin:/opt/itools/Synopsys/starrc/O-2018.06-SP1/bin:/opt/itools/Synopsys/pts/O-2018.06-SP1/bin:/opt/itools/Synopsys/lc/O-2018.06-SP1/bin:/opt/itools/Synopsys/identify/N-2018.03-SP1/bin:/opt/itools/Synopsys/icc2/O-2018.06-SP1/bin:/opt/itools/Synopsys/fpga/N-2018.03-SP1/bin:/opt/itools/Synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME//bin:/opt/itools/Synopsys/fm/O-2018.06-SP1/bin:/opt/itools/Xilinx/Vivado/2018.3/bin:/opt/itools/Gowin/IDE/bin:/opt/itools/Gowin/Programmer/bin:/opt/itools/Typora-linux-x64:/home/jiazm/mtools/diff.log:/home/jiazm/mtools/spech
+PATH=/home/jiazm/perl5/bin:/home/jiazm/perl5/bin:/home/jiazm/perl5/bin:/home/jiazm/perl5/bin:/home/jiazm/perl5/bin:/home/jiazm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/itools/Synopsys/scl/2018.06/linux64/bin:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/bin:/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/bin:/opt/itools/Synopsys/syn/O-2018.06-SP1/bin:/opt/itools/Synopsys/starrc/O-2018.06-SP1/bin:/opt/itools/Synopsys/pts/O-2018.06-SP1/bin:/opt/itools/Synopsys/lc/O-2018.06-SP1/bin:/opt/itools/Synopsys/identify/N-2018.03-SP1/bin:/opt/itools/Synopsys/icc2/O-2018.06-SP1/bin:/opt/itools/Synopsys/fpga/N-2018.03-SP1/bin:/opt/itools/Synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME//bin:/opt/itools/Synopsys/fm/O-2018.06-SP1/bin:/opt/itools/Xilinx/Vivado/2018.3/bin:/opt/itools/Gowin/IDE/bin:/opt/itools/Gowin/Programmer/bin:/opt/itools/Typora-linux-x64:/home/jiazm/mtools/diff.log:/home/jiazm/mtools/spech:/opt/itools/Synopsys/scl/2018.06/linux64/bin:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/bin:/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/bin:/opt/itools/Synopsys/syn/O-2018.06-SP1/bin:/opt/itools/Synopsys/starrc/O-2018.06-SP1/bin:/opt/itools/Synopsys/pts/O-2018.06-SP1/bin:/opt/itools/Synopsys/lc/O-2018.06-SP1/bin:/opt/itools/Synopsys/identify/N-2018.03-SP1/bin:/opt/itools/Synopsys/icc2/O-2018.06-SP1/bin:/opt/itools/Synopsys/fpga/N-2018.03-SP1/bin:/opt/itools/Synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME//bin:/opt/itools/Synopsys/fm/O-2018.06-SP1/bin:/opt/itools/Xilinx/Vivado/2018.3/bin:/opt/itools/Gowin/IDE/bin:/opt/itools/Gowin/Programmer/bin:/opt/itools/Typora-linux-x64:/home/jiazm/mtools/diff.log:/home/jiazm/mtools/spech:/opt/itools/Synopsys/scl/2018.06/linux64/bin:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/bin:/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/bin:/opt/itools/Synopsys/syn/O-2018.06-SP1/bin:/opt/itools/Synopsys/starrc/O-2018.06-SP1/bin:/opt/itools/Synopsys/pts/O-2018.06-SP1/bin:/opt/itools/Synopsys/lc/O-2018.06-SP1/bin:/opt/itools/Synopsys/identify/N-2018.03-SP1/bin:/opt/itools/Synopsys/icc2/O-2018.06-SP1/bin:/opt/itools/Synopsys/fpga/N-2018.03-SP1/bin:/opt/itools/Synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME//bin:/opt/itools/Synopsys/fm/O-2018.06-SP1/bin:/opt/itools/Xilinx/Vivado/2018.3/bin:/opt/itools/Gowin/IDE/bin:/opt/itools/Gowin/Programmer/bin:/opt/itools/Typora-linux-x64:/home/jiazm/mtools/diff.log:/home/jiazm/mtools/spech:/opt/itools/Synopsys/scl/2018.06/linux64/bin:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/bin:/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/bin:/opt/itools/Synopsys/syn/O-2018.06-SP1/bin:/opt/itools/Synopsys/starrc/O-2018.06-SP1/bin:/opt/itools/Synopsys/pts/O-2018.06-SP1/bin:/opt/itools/Synopsys/lc/O-2018.06-SP1/bin:/opt/itools/Synopsys/identify/N-2018.03-SP1/bin:/opt/itools/Synopsys/icc2/O-2018.06-SP1/bin:/opt/itools/Synopsys/fpga/N-2018.03-SP1/bin:/opt/itools/Synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME//bin:/opt/itools/Synopsys/fm/O-2018.06-SP1/bin:/opt/itools/Xilinx/Vivado/2018.3/bin:/opt/itools/Gowin/IDE/bin:/opt/itools/Gowin/Programmer/bin:/opt/itools/Typora-linux-x64:/home/jiazm/mtools/diff.log:/home/jiazm/mtools/spech:/opt/itools/Synopsys/scl/2018.06/linux64/bin:/opt/itools/Synopsys/verdi/Verdi_O-2018.09-SP2/bin:/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/bin:/opt/itools/Synopsys/syn/O-2018.06-SP1/bin:/opt/itools/Synopsys/starrc/O-2018.06-SP1/bin:/opt/itools/Synopsys/pts/O-2018.06-SP1/bin:/opt/itools/Synopsys/lc/O-2018.06-SP1/bin:/opt/itools/Synopsys/identify/N-2018.03-SP1/bin:/opt/itools/Synopsys/icc2/O-2018.06-SP1/bin:/opt/itools/Synopsys/fpga/N-2018.03-SP1/bin:/opt/itools/Synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME//bin:/opt/itools/Synopsys/fm/O-2018.06-SP1/bin:/opt/itools/Xilinx/Vivado/2018.3/bin:/opt/itools/Gowin/IDE/bin:/opt/itools/Gowin/Programmer/bin:/opt/itools/Typora-linux-x64:/home/jiazm/mtools/diff.log:/home/jiazm/mtools/spech
 ITOOLS_HOME=/opt/itools
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 LC_NUMERIC=zh_CN.UTF-8
@@ -293,8 +293,8 @@ argv[0]=./simv
 argv[1]=-l
 argv[2]=run.vcs.log
 294 profile - 100
-          CPU/Mem usage: 0.010 sys,  0.140 user,  202.99M mem
-295 Sun Nov 19 22:05:53 2023
+          CPU/Mem usage: 0.030 sys,  0.120 user,  203.01M mem
+295 Sun Nov 19 22:28:44 2023
 296 pliAppInit
 297 FSDB_GATE is set.
 298 FSDB_RTL is set.
@@ -314,35 +314,35 @@ argv[2]=run.vcs.log
 312 *Verdi* : Begin traversing the scopes, layer (0).
 313 *Verdi* : End of traversing.
 314 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.030 sys,  0.190 user,  299.97M mem
-                   incr: 0.010 sys,  0.050 user,  9.37M mem
-                   accu: 0.010 sys,  0.050 user,  9.37M mem
-              accu incr: 0.010 sys,  0.050 user,  9.37M mem
+          CPU/Mem usage: 0.040 sys,  0.170 user,  299.99M mem
+                   incr: 0.000 sys,  0.050 user,  9.37M mem
+                   accu: 0.000 sys,  0.050 user,  9.37M mem
+              accu incr: 0.000 sys,  0.050 user,  9.37M mem
 
           Count usage: 13158 var,  6453 idcode,  1804 callback
                  incr: 13158 var,  6453 idcode,  1804 callback
                  accu: 13158 var,  6453 idcode,  1804 callback
             accu incr: 13158 var,  6453 idcode,  1804 callback
-315 Sun Nov 19 22:05:53 2023
+315 Sun Nov 19 22:28:44 2023
 316 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.030 sys,  0.190 user,  301.03M mem
+          CPU/Mem usage: 0.040 sys,  0.170 user,  301.04M mem
                    incr: 0.000 sys,  0.000 user,  1.05M mem
-                   accu: 0.010 sys,  0.050 user,  10.42M mem
+                   accu: 0.000 sys,  0.050 user,  10.42M mem
               accu incr: 0.000 sys,  0.000 user,  1.05M mem
 
           Count usage: 13158 var,  6453 idcode,  1804 callback
                  incr: 0 var,  0 idcode,  0 callback
                  accu: 13158 var,  6453 idcode,  1804 callback
             accu incr: 0 var,  0 idcode,  0 callback
-317 Sun Nov 19 22:05:53 2023
+317 Sun Nov 19 22:28:44 2023
 318 End of simulation at 939250000
-319 Sun Nov 19 22:05:53 2023
+319 Sun Nov 19 22:28:44 2023
 320 Begin FSDB profile info:
 321 FSDB Writer : bc1(110182) bcn(306935) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.034775) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+FSDB Writer elapsed time : flush(0.039034) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
 FSDB Writer cpu time : MT Compression : 0
 322 End FSDB profile info
 323 Parallel profile    -  Flush:2 Expand:0 ProduceWait:0 ConsumerWait:3 BlockUsed:3
-324                        ProduceTime:0.494638398 ConsumerTime:0.014468122 Buffer:64MB
+324                        ProduceTime:0.489139585 ConsumerTime:0.014880471 Buffer:64MB
 325 SimExit
 326 Sim process exit

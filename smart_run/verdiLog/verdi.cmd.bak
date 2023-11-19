@@ -1,0 +1,5 @@
+debImport "-f" "../logical/filelists/sim.fl"
+wvCreateWindow
+wvOpenFile -win $_nWave2 \
+           {/file/pub/project/riscv/XuanTie/opene902/smart_run/novas.fsdb}
+debExit

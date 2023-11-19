@@ -157,6 +157,8 @@ regress:
 clean:
 	@cd ./work && rm -rf * 
 
+ov:
+	@verdi -f ./logical/filelists/sim.fl -ssf ./work/novas.fsdb &
 help:
 	@echo "  ########## Smart Help Info ##########"
 	@echo "  This Makefile is the entrance of T-Head Smart simulation environment"

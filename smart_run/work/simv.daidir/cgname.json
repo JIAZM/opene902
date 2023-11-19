@@ -5,149 +5,11 @@
         "module",
         1
     ],
-    "cr_clint_top": [
-        "cr_clint_top",
-        "NhMq3",
-        "module",
-        14
-    ],
-    "cr_clic_ff1_onehot_0001": [
-        "cr_clic_ff1_onehot_0001",
-        "smaIm",
-        "module",
-        9
-    ],
-    "cr_clic_kid_dummy": [
-        "cr_clic_kid_dummy",
-        "QemRW",
-        "module",
-        11
-    ],
-    "cr_had_bkpt": [
-        "cr_had_bkpt",
-        "RHSnT",
-        "module",
-        20
-    ],
-    "cr_iu_lockup": [
-        "cr_iu_lockup",
-        "gInff",
-        "module",
-        32
-    ],
-    "cr_clic_kid": [
-        "cr_clic_kid",
-        "SNCAR",
-        "module",
-        10
-    ],
-    "clic_kid_golden_ports": [
-        "clic_kid_golden_ports",
-        "m75qJ",
-        "module",
-        2
-    ],
-    "cr_cp0_randclk": [
-        "cr_cp0_randclk",
-        "J1pFc",
-        "module",
-        17
-    ],
-    "cr_clic_sel_0001": [
-        "cr_clic_sel_0001",
-        "q2A8q",
-        "module",
-        13
-    ],
-    "cr_had_sync": [
-        "cr_had_sync",
-        "VujR5",
-        "module",
-        22
-    ],
-    "counter": [
-        "counter",
-        "MQn6b",
-        "module",
-        60
-    ],
-    "cr_ahbl_if": [
-        "cr_ahbl_if",
-        "VYNt4",
-        "module",
-        3
-    ],
-    "cr_pmp_comp_hit": [
-        "cr_pmp_comp_hit",
-        "Kre4G",
-        "module",
-        42
-    ],
-    "cr_ahbl_req_arb": [
-        "cr_ahbl_req_arb",
-        "VUWIZ",
-        "module",
-        4
-    ],
-    "cr_bmu_top": [
-        "cr_bmu_top",
-        "cwDMv",
-        "module",
-        5
-    ],
     "cr_had_top": [
         "cr_had_top",
         "nmmpw",
         "module",
         23
-    ],
-    "cr_cp0_lpmd": [
-        "cr_cp0_lpmd",
-        "Z6cGm",
-        "module",
-        16
-    ],
-    "cr_clic_busif_0000": [
-        "cr_clic_busif_0000",
-        "e0ntS",
-        "module",
-        6
-    ],
-    "cr_ifu_ibuf_entry": [
-        "cr_ifu_ibuf_entry",
-        "myjLr",
-        "module",
-        26
-    ],
-    "cr_clic_ctrl_0000": [
-        "cr_clic_ctrl_0000",
-        "DsTPt",
-        "module",
-        7
-    ],
-    "cr_iu_wb": [
-        "cr_iu_wb",
-        "BukxK",
-        "module",
-        40
-    ],
-    "cr_had_trace": [
-        "cr_had_trace",
-        "K4zpJ",
-        "module",
-        24
-    ],
-    "wic_top": [
-        "wic_top",
-        "Pf2JG",
-        "module",
-        58
-    ],
-    "cr_clic_ff1_onehot_0000": [
-        "cr_clic_ff1_onehot_0000",
-        "ndjxe",
-        "module",
-        8
     ],
     "cr_clic_sel_0000": [
         "cr_clic_sel_0000",
@@ -155,131 +17,29 @@
         "module",
         12
     ],
-    "cr_had_jtag2": [
-        "cr_had_jtag2",
-        "cphGS",
+    "cr_clic_kid_dummy": [
+        "cr_clic_kid_dummy",
+        "QemRW",
         "module",
-        21
+        11
     ],
-    "cr_cp0_srst": [
-        "cr_cp0_srst",
-        "tCPkv",
+    "cr_bmu_top": [
+        "cr_bmu_top",
+        "cwDMv",
         "module",
-        18
+        5
     ],
-    "cr_clkrst_top": [
-        "cr_clkrst_top",
-        "uebSV",
+    "clic_kid_golden_ports": [
+        "clic_kid_golden_ports",
+        "m75qJ",
         "module",
-        15
+        2
     ],
-    "cr_cp0_top": [
-        "cr_cp0_top",
-        "UwmYA",
+    "wic": [
+        "wic",
+        "Hai6u",
         "module",
-        19
-    ],
-    "timer": [
-        "timer",
-        "t5sdY",
-        "module",
-        59
-    ],
-    "cr_iahbl_top": [
-        "cr_iahbl_top",
-        "KIHDb",
-        "module",
-        25
-    ],
-    "...MASTER...": [
-        "SIM",
-        "amcQw",
-        "module",
-        63
-    ],
-    "cr_ifu_top": [
-        "cr_ifu_top",
-        "YWcB1",
-        "module",
-        27
-    ],
-    "cr_iu_alu": [
-        "cr_iu_alu",
-        "ZYDyI",
-        "module",
-        28
-    ],
-    "cr_iu_branch": [
-        "cr_iu_branch",
-        "Rb3Rk",
-        "module",
-        29
-    ],
-    "cr_iu_gated_clk_reg_timing": [
-        "cr_iu_gated_clk_reg_timing",
-        "SzneS",
-        "module",
-        30
-    ],
-    "cr_iu_hs_split": [
-        "cr_iu_hs_split",
-        "FHF2k",
-        "module",
-        31
-    ],
-    "cr_iu_special": [
-        "cr_iu_special",
-        "yxtxA",
-        "module",
-        38
-    ],
-    "cr_iu_mad": [
-        "cr_iu_mad",
-        "JzYuy",
-        "module",
-        33
-    ],
-    "cr_pmp_top": [
-        "cr_pmp_top",
-        "gm7dp",
-        "module",
-        43
-    ],
-    "cr_iu_pcgen": [
-        "cr_iu_pcgen",
-        "LM248",
-        "module",
-        34
-    ],
-    "ahb_fifo": [
-        "ahb_fifo",
-        "dB9jV",
-        "module",
-        50
-    ],
-    "cr_iu_randclk": [
-        "cr_iu_randclk",
-        "ktz9J",
-        "module",
-        35
-    ],
-    "cr_iu_rbus": [
-        "cr_iu_rbus",
-        "vAGfd",
-        "module",
-        36
-    ],
-    "cr_iu_retire": [
-        "cr_iu_retire",
-        "Fd03p",
-        "module",
-        37
-    ],
-    "cr_iu_vector": [
-        "cr_iu_vector",
-        "gG7b6",
-        "module",
-        39
+        62
     ],
     "uart": [
         "uart",
@@ -287,11 +47,215 @@
         "module",
         57
     ],
-    "cr_lsu_top": [
-        "cr_lsu_top",
-        "QD50u",
+    "cr_iu_wb": [
+        "cr_iu_wb",
+        "BukxK",
         "module",
-        41
+        40
+    ],
+    "cr_ahbl_req_arb": [
+        "cr_ahbl_req_arb",
+        "VUWIZ",
+        "module",
+        4
+    ],
+    "cr_had_jtag2": [
+        "cr_had_jtag2",
+        "cphGS",
+        "module",
+        21
+    ],
+    "cr_ahbl_if": [
+        "cr_ahbl_if",
+        "VYNt4",
+        "module",
+        3
+    ],
+    "cr_clic_sel_0001": [
+        "cr_clic_sel_0001",
+        "q2A8q",
+        "module",
+        13
+    ],
+    "mem_ctrl": [
+        "mem_ctrl",
+        "DJDDw",
+        "module",
+        53
+    ],
+    "cr_iu_randclk": [
+        "cr_iu_randclk",
+        "ktz9J",
+        "module",
+        35
+    ],
+    "cr_clic_ff1_onehot_0000": [
+        "cr_clic_ff1_onehot_0000",
+        "ndjxe",
+        "module",
+        8
+    ],
+    "cr_clic_busif_0000": [
+        "cr_clic_busif_0000",
+        "e0ntS",
+        "module",
+        6
+    ],
+    "cr_clic_ctrl_0000": [
+        "cr_clic_ctrl_0000",
+        "DsTPt",
+        "module",
+        7
+    ],
+    "cr_clic_ff1_onehot_0001": [
+        "cr_clic_ff1_onehot_0001",
+        "smaIm",
+        "module",
+        9
+    ],
+    "cr_iu_retire": [
+        "cr_iu_retire",
+        "Fd03p",
+        "module",
+        37
+    ],
+    "cr_cp0_lpmd": [
+        "cr_cp0_lpmd",
+        "Z6cGm",
+        "module",
+        16
+    ],
+    "smpu_comp_hit": [
+        "smpu_comp_hit",
+        "ebkYL",
+        "module",
+        61
+    ],
+    "cr_clic_kid": [
+        "cr_clic_kid",
+        "SNCAR",
+        "module",
+        10
+    ],
+    "cr_had_trace": [
+        "cr_had_trace",
+        "K4zpJ",
+        "module",
+        24
+    ],
+    "cr_iu_gated_clk_reg_timing": [
+        "cr_iu_gated_clk_reg_timing",
+        "SzneS",
+        "module",
+        30
+    ],
+    "cr_pmp_top": [
+        "cr_pmp_top",
+        "gm7dp",
+        "module",
+        43
+    ],
+    "cr_clint_top": [
+        "cr_clint_top",
+        "NhMq3",
+        "module",
+        14
+    ],
+    "ahb_fifo": [
+        "ahb_fifo",
+        "dB9jV",
+        "module",
+        50
+    ],
+    "cr_clkrst_top": [
+        "cr_clkrst_top",
+        "uebSV",
+        "module",
+        15
+    ],
+    "cr_cp0_srst": [
+        "cr_cp0_srst",
+        "tCPkv",
+        "module",
+        18
+    ],
+    "clk_divider": [
+        "clk_divider",
+        "xT0qZ",
+        "module",
+        54
+    ],
+    "cr_cp0_randclk": [
+        "cr_cp0_randclk",
+        "J1pFc",
+        "module",
+        17
+    ],
+    "cr_cp0_top": [
+        "cr_cp0_top",
+        "UwmYA",
+        "module",
+        19
+    ],
+    "cr_had_bkpt": [
+        "cr_had_bkpt",
+        "RHSnT",
+        "module",
+        20
+    ],
+    "cr_had_sync": [
+        "cr_had_sync",
+        "VujR5",
+        "module",
+        22
+    ],
+    "cr_sahbl_top": [
+        "cr_sahbl_top",
+        "Cktip",
+        "module",
+        45
+    ],
+    "cr_iahbl_top": [
+        "cr_iahbl_top",
+        "KIHDb",
+        "module",
+        25
+    ],
+    "cr_iu_branch": [
+        "cr_iu_branch",
+        "Rb3Rk",
+        "module",
+        29
+    ],
+    "smpu_top": [
+        "smpu_top",
+        "ccNGj",
+        "module",
+        56
+    ],
+    "tb": [
+        "tb",
+        "g7hgQ",
+        "module",
+        48
+    ],
+    "cr_ifu_ibuf_entry": [
+        "cr_ifu_ibuf_entry",
+        "myjLr",
+        "module",
+        26
+    ],
+    "cr_iu_rbus": [
+        "cr_iu_rbus",
+        "vAGfd",
+        "module",
+        36
+    ],
+    "cr_ifu_top": [
+        "cr_ifu_top",
+        "YWcB1",
+        "module",
+        27
     ],
     "cr_pwrm_top_dummy": [
         "cr_pwrm_top_dummy",
@@ -299,11 +263,65 @@
         "module",
         44
     ],
-    "cr_sahbl_top": [
-        "cr_sahbl_top",
-        "Cktip",
+    "cr_iu_alu": [
+        "cr_iu_alu",
+        "ZYDyI",
         "module",
-        45
+        28
+    ],
+    "cr_iu_hs_split": [
+        "cr_iu_hs_split",
+        "FHF2k",
+        "module",
+        31
+    ],
+    "timer": [
+        "timer",
+        "t5sdY",
+        "module",
+        59
+    ],
+    "cr_pmp_comp_hit": [
+        "cr_pmp_comp_hit",
+        "Kre4G",
+        "module",
+        42
+    ],
+    "cr_iu_pcgen": [
+        "cr_iu_pcgen",
+        "LM248",
+        "module",
+        34
+    ],
+    "cr_iu_lockup": [
+        "cr_iu_lockup",
+        "gInff",
+        "module",
+        32
+    ],
+    "cr_iu_mad": [
+        "cr_iu_mad",
+        "JzYuy",
+        "module",
+        33
+    ],
+    "cr_iu_special": [
+        "cr_iu_special",
+        "yxtxA",
+        "module",
+        38
+    ],
+    "cr_iu_vector": [
+        "cr_iu_vector",
+        "gG7b6",
+        "module",
+        39
+    ],
+    "cr_lsu_top": [
+        "cr_lsu_top",
+        "QD50u",
+        "module",
+        41
     ],
     "cr_sys_io": [
         "cr_sys_io",
@@ -317,23 +335,11 @@
         "module",
         47
     ],
-    "tb": [
-        "tb",
-        "g7hgQ",
-        "module",
-        48
-    ],
     "ahb": [
         "ahb",
         "NHiNR",
         "module",
         49
-    ],
-    "apb": [
-        "apb",
-        "jsCLA",
-        "module",
-        51
     ],
     "iahb_mem_ctrl": [
         "iahb_mem_ctrl",
@@ -341,40 +347,34 @@
         "module",
         55
     ],
+    "apb": [
+        "apb",
+        "jsCLA",
+        "module",
+        51
+    ],
     "err_gen": [
         "err_gen",
         "f6b33",
         "module",
         52
     ],
-    "clk_divider": [
-        "clk_divider",
-        "xT0qZ",
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
         "module",
-        54
+        63
     ],
-    "mem_ctrl": [
-        "mem_ctrl",
-        "DJDDw",
+    "wic_top": [
+        "wic_top",
+        "Pf2JG",
         "module",
-        53
+        58
     ],
-    "smpu_top": [
-        "smpu_top",
-        "ccNGj",
+    "counter": [
+        "counter",
+        "MQn6b",
         "module",
-        56
-    ],
-    "smpu_comp_hit": [
-        "smpu_comp_hit",
-        "ebkYL",
-        "module",
-        61
-    ],
-    "wic": [
-        "wic",
-        "Hai6u",
-        "module",
-        62
+        60
     ]
 }

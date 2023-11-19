@@ -89,14 +89,14 @@ QT_SCREEN_SCALE_FACTORS=DP-1=1;DP-2=1;HDMI-1=1;DP-3=1;DP-4=1;
 QT_IM_MODULE=fcitx
 QT_AUTO_SCREEN_SCALE_FACTOR=0
 QT_ACCESSIBILITY=1
-PYTHONPATH=:/opt/itools/OpenRAM/compiler
+PYTHONPATH=:/opt/itools/OpenRAM/compiler:/opt/itools/OpenRAM/compiler:/opt/itools/OpenRAM/compiler:/opt/itools/OpenRAM/compiler:/opt/itools/OpenRAM/compiler
 PTS_HOME=/opt/itools/Synopsys/pts/O-2018.06-SP1
 PROJ_HOME=/home/jiazm/pub/project
 PROFILEHOME=
 PERL_MM_OPT=INSTALL_BASE=/home/jiazm/perl5
 PERL_MB_OPT=--install_base "/home/jiazm/perl5"
-PERL_LOCAL_LIB_ROOT=/home/jiazm/perl5
-PERL5LIB=/home/jiazm/perl5/lib/perl5
+PERL_LOCAL_LIB_ROOT=/home/jiazm/perl5:/home/jiazm/perl5:/home/jiazm/perl5:/home/jiazm/perl5:/home/jiazm/perl5
+PERL5LIB=/home/jiazm/perl5/lib/perl5:/home/jiazm/perl5/lib/perl5:/home/jiazm/perl5/lib/perl5:/home/jiazm/perl5/lib/perl5:/home/jiazm/perl5/lib/perl5
 PAM_KWALLET5_LOGIN=/run/user/1000/kwallet5.socket
 OVA_UUM=0
 OPENRAM_TECH=/opt/itools/OpenRAM/technology
@@ -294,5 +294,5 @@ BILL_PROJ=/home/jiazm/pub/project/billboards
 1551421792 /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/liberrorinf.so
 1551421768 /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
 1551421789 /opt/itools/Synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvfs.so
-1700402752 simv.daidir
+1700404123 simv.daidir
 -1 partitionlib

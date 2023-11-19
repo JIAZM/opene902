@@ -2,7 +2,7 @@ Command: vcs -full64 -LDFLAGS -Wl,--no-as-needed -sverilog -full64 -kdb -lca -de
 +nospecify +notimingchecks -timescale=1ns/100fs +define+no_warning +define+TSMC_NO_WARNING \
 -f ../logical/filelists/sim.fl -l comp.vcs.log
                          Chronologic VCS (TM)
-       Version O-2018.09-SP2_Full64 -- Sun Nov 19 22:05:49 2023
+       Version O-2018.09-SP2_Full64 -- Sun Nov 19 22:28:40 2023
                Copyright (c) 1991-2018 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -210,4 +210,4 @@ recompiling module smpu_comp_hit
 recompiling module wic
 All of 59 modules done
 ../simv up to date
-CPU time: 2.599 seconds to compile + .429 seconds to elab + .181 seconds to link
+CPU time: 2.619 seconds to compile + .413 seconds to elab + .165 seconds to link
