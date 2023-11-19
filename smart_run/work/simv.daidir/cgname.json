@@ -1,0 +1,380 @@
+{
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        63
+    ],
+    "cr_pmp_top": [
+        "cr_pmp_top",
+        "gm7dp",
+        "module",
+        42
+    ],
+    "cr_clint_top": [
+        "cr_clint_top",
+        "NhMq3",
+        "module",
+        14
+    ],
+    "cr_cp0_srst": [
+        "cr_cp0_srst",
+        "tCPkv",
+        "module",
+        18
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "cr_ahbl_req_arb": [
+        "cr_ahbl_req_arb",
+        "VUWIZ",
+        "module",
+        4
+    ],
+    "uart": [
+        "uart",
+        "bvImI",
+        "module",
+        57
+    ],
+    "cr_sahbl_top": [
+        "cr_sahbl_top",
+        "Cktip",
+        "module",
+        44
+    ],
+    "cr_clic_ff1_onehot_0000": [
+        "cr_clic_ff1_onehot_0000",
+        "ndjxe",
+        "module",
+        8
+    ],
+    "cr_had_bkpt": [
+        "cr_had_bkpt",
+        "RHSnT",
+        "module",
+        20
+    ],
+    "cr_ifu_top": [
+        "cr_ifu_top",
+        "YWcB1",
+        "module",
+        26
+    ],
+    "iahb_mem_ctrl": [
+        "iahb_mem_ctrl",
+        "IqYEE",
+        "module",
+        53
+    ],
+    "clic_kid_golden_ports": [
+        "clic_kid_golden_ports",
+        "m75qJ",
+        "module",
+        2
+    ],
+    "cr_bmu_top": [
+        "cr_bmu_top",
+        "cwDMv",
+        "module",
+        5
+    ],
+    "cr_ahbl_if": [
+        "cr_ahbl_if",
+        "VYNt4",
+        "module",
+        3
+    ],
+    "cr_iu_vector": [
+        "cr_iu_vector",
+        "gG7b6",
+        "module",
+        38
+    ],
+    "cr_iahbl_top": [
+        "cr_iahbl_top",
+        "KIHDb",
+        "module",
+        24
+    ],
+    "counter": [
+        "counter",
+        "MQn6b",
+        "module",
+        61
+    ],
+    "cr_clic_ff1_onehot_0001": [
+        "cr_clic_ff1_onehot_0001",
+        "smaIm",
+        "module",
+        9
+    ],
+    "smpu_top": [
+        "smpu_top",
+        "ccNGj",
+        "module",
+        56
+    ],
+    "cr_clic_busif_0000": [
+        "cr_clic_busif_0000",
+        "e0ntS",
+        "module",
+        6
+    ],
+    "cr_clic_ctrl_0000": [
+        "cr_clic_ctrl_0000",
+        "DsTPt",
+        "module",
+        7
+    ],
+    "cr_clic_sel_0001": [
+        "cr_clic_sel_0001",
+        "q2A8q",
+        "module",
+        13
+    ],
+    "cr_cp0_randclk": [
+        "cr_cp0_randclk",
+        "J1pFc",
+        "module",
+        17
+    ],
+    "cr_iu_alu": [
+        "cr_iu_alu",
+        "ZYDyI",
+        "module",
+        27
+    ],
+    "ahb": [
+        "ahb",
+        "NHiNR",
+        "module",
+        48
+    ],
+    "cr_clic_kid": [
+        "cr_clic_kid",
+        "SNCAR",
+        "module",
+        10
+    ],
+    "cr_iu_randclk": [
+        "cr_iu_randclk",
+        "ktz9J",
+        "module",
+        34
+    ],
+    "cr_cp0_lpmd": [
+        "cr_cp0_lpmd",
+        "Z6cGm",
+        "module",
+        16
+    ],
+    "cr_lsu_top": [
+        "cr_lsu_top",
+        "QD50u",
+        "module",
+        40
+    ],
+    "cr_clic_kid_dummy": [
+        "cr_clic_kid_dummy",
+        "QemRW",
+        "module",
+        11
+    ],
+    "cr_iu_lockup": [
+        "cr_iu_lockup",
+        "gInff",
+        "module",
+        31
+    ],
+    "cr_clic_sel_0000": [
+        "cr_clic_sel_0000",
+        "fubQ1",
+        "module",
+        12
+    ],
+    "cr_clkrst_top": [
+        "cr_clkrst_top",
+        "uebSV",
+        "module",
+        15
+    ],
+    "cr_iu_hs_split": [
+        "cr_iu_hs_split",
+        "FHF2k",
+        "module",
+        30
+    ],
+    "cr_cp0_top": [
+        "cr_cp0_top",
+        "UwmYA",
+        "module",
+        19
+    ],
+    "cr_sys_io": [
+        "cr_sys_io",
+        "gUtAU",
+        "module",
+        45
+    ],
+    "cr_had_jtag2": [
+        "cr_had_jtag2",
+        "cphGS",
+        "module",
+        21
+    ],
+    "mem_ctrl": [
+        "mem_ctrl",
+        "DJDDw",
+        "module",
+        54
+    ],
+    "cr_had_top": [
+        "cr_had_top",
+        "nmmpw",
+        "module",
+        22
+    ],
+    "cr_had_trace": [
+        "cr_had_trace",
+        "K4zpJ",
+        "module",
+        23
+    ],
+    "cr_iu_special": [
+        "cr_iu_special",
+        "yxtxA",
+        "module",
+        37
+    ],
+    "cr_ifu_ibuf_entry": [
+        "cr_ifu_ibuf_entry",
+        "myjLr",
+        "module",
+        25
+    ],
+    "cr_iu_branch": [
+        "cr_iu_branch",
+        "Rb3Rk",
+        "module",
+        28
+    ],
+    "err_gen": [
+        "err_gen",
+        "f6b33",
+        "module",
+        51
+    ],
+    "cr_iu_gated_clk_reg_timing": [
+        "cr_iu_gated_clk_reg_timing",
+        "SzneS",
+        "module",
+        29
+    ],
+    "timer": [
+        "timer",
+        "t5sdY",
+        "module",
+        60
+    ],
+    "smpu_comp_hit": [
+        "smpu_comp_hit",
+        "ebkYL",
+        "module",
+        55
+    ],
+    "cr_iu_mad": [
+        "cr_iu_mad",
+        "JzYuy",
+        "module",
+        32
+    ],
+    "clk_divider": [
+        "clk_divider",
+        "xT0qZ",
+        "module",
+        50
+    ],
+    "cr_iu_pcgen": [
+        "cr_iu_pcgen",
+        "LM248",
+        "module",
+        33
+    ],
+    "cr_iu_rbus": [
+        "cr_iu_rbus",
+        "vAGfd",
+        "module",
+        35
+    ],
+    "cr_iu_retire": [
+        "cr_iu_retire",
+        "Fd03p",
+        "module",
+        36
+    ],
+    "cr_iu_wb": [
+        "cr_iu_wb",
+        "BukxK",
+        "module",
+        39
+    ],
+    "cr_pmp_comp_hit": [
+        "cr_pmp_comp_hit",
+        "Kre4G",
+        "module",
+        41
+    ],
+    "cr_pwrm_top_dummy": [
+        "cr_pwrm_top_dummy",
+        "yaH0W",
+        "module",
+        43
+    ],
+    "cr_tcipif_top": [
+        "cr_tcipif_top",
+        "T7kIm",
+        "module",
+        46
+    ],
+    "ahb_fifo": [
+        "ahb_fifo",
+        "dB9jV",
+        "module",
+        47
+    ],
+    "apb": [
+        "apb",
+        "jsCLA",
+        "module",
+        49
+    ],
+    "px_had_sync": [
+        "px_had_sync",
+        "ZdDhj",
+        "module",
+        52
+    ],
+    "wic": [
+        "wic",
+        "Hai6u",
+        "module",
+        58
+    ],
+    "wic_top": [
+        "wic_top",
+        "Pf2JG",
+        "module",
+        59
+    ],
+    "tb": [
+        "tb",
+        "g7hgQ",
+        "module",
+        62
+    ]
+}

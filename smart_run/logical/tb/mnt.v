@@ -28,6 +28,8 @@ limitations under the License.
 `define wb_gpr_data   tb.x_soc.x_cpu_sub_system_ahb.biu_pad_wb_gpr_data
 `define wb_gpr_index  tb.x_soc.x_cpu_sub_system_ahb.biu_pad_wb_gpr_index
 `define wb_gpr_en     tb.x_soc.x_cpu_sub_system_ahb.biu_pad_wb_gpr_en
+`define clk           tb.clk
+`define rst_b         tb.rst_b
 
 module mnt();
 

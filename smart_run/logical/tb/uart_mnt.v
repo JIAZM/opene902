@@ -15,6 +15,9 @@ limitations under the License.
 
 `define sout          tb.uart0_sout
 `define sin           tb.uart0_sin
+`define clk           tb.clk
+`define rst_b         tb.rst_b
+`define CLK_PERIOD          10
 
 module uart_mnt();
 

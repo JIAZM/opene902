@@ -402,9 +402,9 @@ textSearchInPrj_base = 1403,480,493,212
 saveSigDlg = 687,360,561,396
 SetWindowTimeUnitDialog = 624,530,463,99
 importDesignForm = 485,286,725,584
-openFileDlg = 527,316,642,523
 QwWarnMsgDlg = 666,830,600,250
-QwUserAskDlg = 778,917,324,163
+openFileDlg = 639,306,642,523
+QwUserAskDlg = 778,944,324,136
 [Relationship]
 hideRecursiceNode = FALSE
 [Session Cache]
@@ -704,28 +704,28 @@ visualIndex = 1
 isHidden = TRUE
 isUserChangeColumnVisible = FALSE
 [VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column1]
+name = Type
+width = 60
+visualIndex = 3
+isHidden = FALSE
+isUserChangeColumnVisible = FALSE
+[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column2]
 name = Message
 width = 60
 visualIndex = 4
 isHidden = FALSE
 isUserChangeColumnVisible = FALSE
-[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column2]
+[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column3]
 name = Code
 width = 60
 visualIndex = 2
 isHidden = TRUE
 isUserChangeColumnVisible = FALSE
-[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column3]
+[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column4]
 name = Time
 width = 60
 visualIndex = 0
 isHidden = TRUE
-isUserChangeColumnVisible = FALSE
-[VIA.oneSearch.preference.vgifColumnSettingRC.setting0.column4]
-name = Type
-width = 60
-visualIndex = 3
-isHidden = FALSE
 isUserChangeColumnVisible = FALSE
 [Vi]
 ViFont = "Clean 14"

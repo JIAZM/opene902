@@ -1,0 +1,830 @@
+{
+    "CurCompileUdps": {},
+    "Misc": {
+        "vcs_version": "O-2018.09-SP2_Full64",
+        "cwd": "/file/pub/project/riscv/XuanTie/opene902/smart_run/work",
+        "daidir_abs": "/file/pub/project/riscv/XuanTie/opene902/smart_run/work/simv.daidir",
+        "vcs_build_date": "Build Date = Feb 28 2019 22:34:30",
+        "hostname": "",
+        "csrc_abs": "/file/pub/project/riscv/XuanTie/opene902/smart_run/work/csrc",
+        "VCS_HOME": "/opt/itools/Synopsys/vcs-mx/O-2018.09-SP2",
+        "master_pid": 118445,
+        "archive_dir": "archive.0",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "cycles_program_begin": 3885338167217161,
+    "NameTable": {
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            63
+        ],
+        "cr_pmp_top": [
+            "cr_pmp_top",
+            "gm7dp",
+            "module",
+            42
+        ],
+        "cr_clint_top": [
+            "cr_clint_top",
+            "NhMq3",
+            "module",
+            14
+        ],
+        "cr_cp0_srst": [
+            "cr_cp0_srst",
+            "tCPkv",
+            "module",
+            18
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "cr_ahbl_req_arb": [
+            "cr_ahbl_req_arb",
+            "VUWIZ",
+            "module",
+            4
+        ],
+        "uart": [
+            "uart",
+            "bvImI",
+            "module",
+            57
+        ],
+        "cr_sahbl_top": [
+            "cr_sahbl_top",
+            "Cktip",
+            "module",
+            44
+        ],
+        "cr_clic_ff1_onehot_0000": [
+            "cr_clic_ff1_onehot_0000",
+            "ndjxe",
+            "module",
+            8
+        ],
+        "cr_had_bkpt": [
+            "cr_had_bkpt",
+            "RHSnT",
+            "module",
+            20
+        ],
+        "cr_ifu_top": [
+            "cr_ifu_top",
+            "YWcB1",
+            "module",
+            26
+        ],
+        "iahb_mem_ctrl": [
+            "iahb_mem_ctrl",
+            "IqYEE",
+            "module",
+            53
+        ],
+        "clic_kid_golden_ports": [
+            "clic_kid_golden_ports",
+            "m75qJ",
+            "module",
+            2
+        ],
+        "cr_bmu_top": [
+            "cr_bmu_top",
+            "cwDMv",
+            "module",
+            5
+        ],
+        "cr_ahbl_if": [
+            "cr_ahbl_if",
+            "VYNt4",
+            "module",
+            3
+        ],
+        "cr_iu_vector": [
+            "cr_iu_vector",
+            "gG7b6",
+            "module",
+            38
+        ],
+        "cr_iahbl_top": [
+            "cr_iahbl_top",
+            "KIHDb",
+            "module",
+            24
+        ],
+        "counter": [
+            "counter",
+            "MQn6b",
+            "module",
+            61
+        ],
+        "cr_clic_ff1_onehot_0001": [
+            "cr_clic_ff1_onehot_0001",
+            "smaIm",
+            "module",
+            9
+        ],
+        "smpu_top": [
+            "smpu_top",
+            "ccNGj",
+            "module",
+            56
+        ],
+        "cr_clic_busif_0000": [
+            "cr_clic_busif_0000",
+            "e0ntS",
+            "module",
+            6
+        ],
+        "cr_clic_ctrl_0000": [
+            "cr_clic_ctrl_0000",
+            "DsTPt",
+            "module",
+            7
+        ],
+        "cr_clic_sel_0001": [
+            "cr_clic_sel_0001",
+            "q2A8q",
+            "module",
+            13
+        ],
+        "cr_cp0_randclk": [
+            "cr_cp0_randclk",
+            "J1pFc",
+            "module",
+            17
+        ],
+        "cr_iu_alu": [
+            "cr_iu_alu",
+            "ZYDyI",
+            "module",
+            27
+        ],
+        "ahb": [
+            "ahb",
+            "NHiNR",
+            "module",
+            48
+        ],
+        "cr_clic_kid": [
+            "cr_clic_kid",
+            "SNCAR",
+            "module",
+            10
+        ],
+        "cr_iu_randclk": [
+            "cr_iu_randclk",
+            "ktz9J",
+            "module",
+            34
+        ],
+        "cr_cp0_lpmd": [
+            "cr_cp0_lpmd",
+            "Z6cGm",
+            "module",
+            16
+        ],
+        "cr_lsu_top": [
+            "cr_lsu_top",
+            "QD50u",
+            "module",
+            40
+        ],
+        "cr_clic_kid_dummy": [
+            "cr_clic_kid_dummy",
+            "QemRW",
+            "module",
+            11
+        ],
+        "cr_iu_lockup": [
+            "cr_iu_lockup",
+            "gInff",
+            "module",
+            31
+        ],
+        "cr_clic_sel_0000": [
+            "cr_clic_sel_0000",
+            "fubQ1",
+            "module",
+            12
+        ],
+        "cr_clkrst_top": [
+            "cr_clkrst_top",
+            "uebSV",
+            "module",
+            15
+        ],
+        "cr_iu_hs_split": [
+            "cr_iu_hs_split",
+            "FHF2k",
+            "module",
+            30
+        ],
+        "cr_cp0_top": [
+            "cr_cp0_top",
+            "UwmYA",
+            "module",
+            19
+        ],
+        "cr_sys_io": [
+            "cr_sys_io",
+            "gUtAU",
+            "module",
+            45
+        ],
+        "cr_had_jtag2": [
+            "cr_had_jtag2",
+            "cphGS",
+            "module",
+            21
+        ],
+        "mem_ctrl": [
+            "mem_ctrl",
+            "DJDDw",
+            "module",
+            54
+        ],
+        "cr_had_top": [
+            "cr_had_top",
+            "nmmpw",
+            "module",
+            22
+        ],
+        "cr_had_trace": [
+            "cr_had_trace",
+            "K4zpJ",
+            "module",
+            23
+        ],
+        "cr_iu_special": [
+            "cr_iu_special",
+            "yxtxA",
+            "module",
+            37
+        ],
+        "cr_ifu_ibuf_entry": [
+            "cr_ifu_ibuf_entry",
+            "myjLr",
+            "module",
+            25
+        ],
+        "cr_iu_branch": [
+            "cr_iu_branch",
+            "Rb3Rk",
+            "module",
+            28
+        ],
+        "err_gen": [
+            "err_gen",
+            "f6b33",
+            "module",
+            51
+        ],
+        "cr_iu_gated_clk_reg_timing": [
+            "cr_iu_gated_clk_reg_timing",
+            "SzneS",
+            "module",
+            29
+        ],
+        "timer": [
+            "timer",
+            "t5sdY",
+            "module",
+            60
+        ],
+        "smpu_comp_hit": [
+            "smpu_comp_hit",
+            "ebkYL",
+            "module",
+            55
+        ],
+        "cr_iu_mad": [
+            "cr_iu_mad",
+            "JzYuy",
+            "module",
+            32
+        ],
+        "clk_divider": [
+            "clk_divider",
+            "xT0qZ",
+            "module",
+            50
+        ],
+        "cr_iu_pcgen": [
+            "cr_iu_pcgen",
+            "LM248",
+            "module",
+            33
+        ],
+        "cr_iu_rbus": [
+            "cr_iu_rbus",
+            "vAGfd",
+            "module",
+            35
+        ],
+        "cr_iu_retire": [
+            "cr_iu_retire",
+            "Fd03p",
+            "module",
+            36
+        ],
+        "cr_iu_wb": [
+            "cr_iu_wb",
+            "BukxK",
+            "module",
+            39
+        ],
+        "cr_pmp_comp_hit": [
+            "cr_pmp_comp_hit",
+            "Kre4G",
+            "module",
+            41
+        ],
+        "cr_pwrm_top_dummy": [
+            "cr_pwrm_top_dummy",
+            "yaH0W",
+            "module",
+            43
+        ],
+        "cr_tcipif_top": [
+            "cr_tcipif_top",
+            "T7kIm",
+            "module",
+            46
+        ],
+        "ahb_fifo": [
+            "ahb_fifo",
+            "dB9jV",
+            "module",
+            47
+        ],
+        "apb": [
+            "apb",
+            "jsCLA",
+            "module",
+            49
+        ],
+        "px_had_sync": [
+            "px_had_sync",
+            "ZdDhj",
+            "module",
+            52
+        ],
+        "wic": [
+            "wic",
+            "Hai6u",
+            "module",
+            58
+        ],
+        "wic_top": [
+            "wic_top",
+            "Pf2JG",
+            "module",
+            59
+        ],
+        "tb": [
+            "tb",
+            "g7hgQ",
+            "module",
+            62
+        ]
+    },
+    "perf": [
+        {
+            "sub": [
+                {
+                    "sub": [],
+                    "stat": [
+                        "doParsingAndDesignResolution",
+                        "entry",
+                        0.12351703643798828,
+                        0.034817000000000001,
+                        0.004424,
+                        212604,
+                        213404,
+                        0.0,
+                        0.0,
+                        1700412105.815434,
+                        3885338481440861
+                    ]
+                },
+                {
+                    "sub": [],
+                    "stat": [
+                        "doParsingAndDesignResolution",
+                        "exit",
+                        0.37955999374389648,
+                        0.388905,
+                        0.036083999999999998,
+                        345172,
+                        385456,
+                        0.0,
+                        0.0,
+                        1700412106.0714769,
+                        3885339199202261
+                    ]
+                },
+                {
+                    "sub": [
+                        {
+                            "sub": [],
+                            "stat": [
+                                "doUptoVir2VcsNoSepCleanup",
+                                "entry",
+                                0.55183815956115723,
+                                0.55335699999999999,
+                                0.043903999999999999,
+                                335332,
+                                385456,
+                                0.0,
+                                0.0,
+                                1700412106.2437551,
+                                3885339682096360
+                            ]
+                        },
+                        {
+                            "sub": [],
+                            "stat": [
+                                "doUptoVir2VcsNoSepCleanup",
+                                "exit",
+                                1.4184801578521729,
+                                1.396962,
+                                0.056037999999999998,
+                                331236,
+                                385456,
+                                0.00992,
+                                0.001013,
+                                1700412107.1103971,
+                                3885342111483661
+                            ]
+                        },
+                        {
+                            "sub": [],
+                            "stat": [
+                                "doRadify_vir2vcsAll",
+                                "entry",
+                                1.4185421466827393,
+                                1.3970229999999999,
+                                0.056041000000000001,
+                                331236,
+                                385456,
+                                0.14558399999999999,
+                                0.042226,
+                                1700412107.1104591,
+                                3885342111565867
+                            ]
+                        },
+                        {
+                            "sub": [],
+                            "stat": [
+                                "doRadify_vir2vcsAll",
+                                "exit",
+                                1.4525201320648193,
+                                1.431,
+                                0.056041000000000001,
+                                331236,
+                                385456,
+                                0.14558399999999999,
+                                0.042226,
+                                1700412107.1444371,
+                                3885342206916200
+                            ]
+                        }
+                    ],
+                    "stat": [
+                        "doPostDesignResolutionToVir2Vcs",
+                        "entry",
+                        0.38136410713195801,
+                        0.388905,
+                        0.037887999999999998,
+                        331156,
+                        385456,
+                        0.0,
+                        0.0,
+                        1700412106.073281,
+                        3885339204292439
+                    ]
+                },
+                {
+                    "sub": [],
+                    "stat": [
+                        "doPostDesignResolutionToVir2Vcs",
+                        "exit",
+                        1.4525680541992188,
+                        1.431049,
+                        0.056041000000000001,
+                        331236,
+                        385456,
+                        0.14558399999999999,
+                        0.042226,
+                        1700412107.144485,
+                        3885342206946959
+                    ]
+                },
+                {
+                    "sub": [
+                        {
+                            "sub": [],
+                            "stat": [
+                                "DoPass2",
+                                "entry",
+                                1.474135160446167,
+                                1.4347179999999999,
+                                0.056106000000000003,
+                                329292,
+                                385456,
+                                0.149336,
+                                0.052463999999999997,
+                                1700412107.1660521,
+                                3885342267449033
+                            ]
+                        },
+                        {
+                            "sub": [],
+                            "stat": [
+                                "DoPass2",
+                                "exit",
+                                2.2699861526489258,
+                                2.2064650000000001,
+                                0.080123,
+                                333256,
+                                385456,
+                                0.149336,
+                                0.052463999999999997,
+                                1700412107.9619031,
+                                3885344498372682
+                            ]
+                        }
+                    ],
+                    "stat": [
+                        "doGAToPass2",
+                        "entry",
+                        1.4525771141052246,
+                        1.4310579999999999,
+                        0.056041000000000001,
+                        331236,
+                        385456,
+                        0.14558399999999999,
+                        0.042226,
+                        1700412107.1444941,
+                        3885342206967646
+                    ]
+                },
+                {
+                    "sub": [],
+                    "stat": [
+                        "doGAToPass2",
+                        "exit",
+                        2.272130012512207,
+                        2.208609,
+                        0.080123,
+                        333256,
+                        385456,
+                        0.149336,
+                        0.052463999999999997,
+                        1700412107.964047,
+                        3885344504367548
+                    ]
+                }
+            ],
+            "stat": [
+                "main",
+                "entry",
+                0.01147913932800293,
+                0.025530000000000001,
+                0.004424,
+                203564,
+                203564,
+                0.0,
+                0.0,
+                1700412105.7033961,
+                3885338167363065
+            ]
+        },
+        {
+            "sub": [],
+            "stat": [
+                "main",
+                "exit",
+                2.2730300426483154,
+                2.2095090000000002,
+                0.080123,
+                333256,
+                385456,
+                0.149336,
+                0.052463999999999997,
+                1700412107.964947,
+                3885344506861177
+            ]
+        }
+    ],
+    "PrevCompiledModules": {},
+    "PEModules": [],
+    "MlibObjs": {},
+    "incremental": "on",
+    "stat": {
+        "ru_self_end": {
+            "ru_stime_sec": 0.080123,
+            "ru_utime_sec": 2.2095600000000002,
+            "ru_minflt": 44374,
+            "ru_maxrss_kb": 169052,
+            "ru_majflt": 0,
+            "ru_nvcsw": 214,
+            "ru_nivcsw": 10
+        },
+        "ru_self_cgstart": {
+            "ru_stime_sec": 0.056107999999999998,
+            "ru_utime_sec": 1.434763,
+            "ru_minflt": 42875,
+            "ru_maxrss_kb": 165876,
+            "ru_majflt": 0,
+            "ru_nvcsw": 214,
+            "ru_nivcsw": 3
+        },
+        "cpu_cycles_cgstart": 3885342267523067,
+        "CodeGen(%)": 32.845746484796287,
+        "ru_childs_cgstart": {
+            "ru_stime_sec": 0.052463999999999997,
+            "ru_utime_sec": 0.149336,
+            "ru_minflt": 18827,
+            "ru_maxrss_kb": 165876,
+            "ru_majflt": 0,
+            "ru_nvcsw": 87,
+            "ru_nivcsw": 2
+        },
+        "cpu_cycles_total": 6339771249,
+        "ru_childs_end": {
+            "ru_stime_sec": 0.052463999999999997,
+            "ru_utime_sec": 0.149336,
+            "ru_minflt": 18827,
+            "ru_maxrss_kb": 165876,
+            "ru_majflt": 0,
+            "ru_nvcsw": 87,
+            "ru_nivcsw": 2
+        },
+        "nMops": 247681,
+        "nQuads": 77009,
+        "totalObjSize": 2596886,
+        "cpu_cycles_end": 3885344506988410,
+        "mopSpeed": 319672.12056835525,
+        "realTime": 2.2730939388275146,
+        "quadSpeed": 99392.486031825087,
+        "mop/quad": 3.2162604370917687,
+        "outputSizePerQuad": 33.721850692776172,
+        "Frontend(%)": 67.15425351520372,
+        "peak_mem_kb": 385456
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "clic_kid_golden_ports",
+        "clic_kid_golden_ports",
+        "cr_ahbl_if",
+        "cr_ahbl_if",
+        "cr_ahbl_req_arb",
+        "cr_ahbl_req_arb",
+        "cr_bmu_top",
+        "cr_bmu_top",
+        "cr_clic_busif_0000",
+        "cr_clic_busif_0000",
+        "cr_clic_ctrl_0000",
+        "cr_clic_ctrl_0000",
+        "cr_clic_ff1_onehot_0000",
+        "cr_clic_ff1_onehot_0000",
+        "cr_clic_ff1_onehot_0001",
+        "cr_clic_ff1_onehot_0001",
+        "cr_clic_kid",
+        "cr_clic_kid",
+        "cr_clic_kid_dummy",
+        "cr_clic_kid_dummy",
+        "cr_clic_sel_0000",
+        "cr_clic_sel_0000",
+        "cr_clic_sel_0001",
+        "cr_clic_sel_0001",
+        "cr_clint_top",
+        "cr_clint_top",
+        "cr_clkrst_top",
+        "cr_clkrst_top",
+        "cr_cp0_lpmd",
+        "cr_cp0_lpmd",
+        "cr_cp0_randclk",
+        "cr_cp0_randclk",
+        "cr_cp0_srst",
+        "cr_cp0_srst",
+        "cr_cp0_top",
+        "cr_cp0_top",
+        "cr_had_bkpt",
+        "cr_had_bkpt",
+        "cr_had_jtag2",
+        "cr_had_jtag2",
+        "cr_had_top",
+        "cr_had_top",
+        "cr_had_trace",
+        "cr_had_trace",
+        "cr_iahbl_top",
+        "cr_iahbl_top",
+        "cr_ifu_ibuf_entry",
+        "cr_ifu_ibuf_entry",
+        "cr_ifu_top",
+        "cr_ifu_top",
+        "cr_iu_alu",
+        "cr_iu_alu",
+        "cr_iu_branch",
+        "cr_iu_branch",
+        "cr_iu_gated_clk_reg_timing",
+        "cr_iu_gated_clk_reg_timing",
+        "cr_iu_hs_split",
+        "cr_iu_hs_split",
+        "cr_iu_lockup",
+        "cr_iu_lockup",
+        "cr_iu_mad",
+        "cr_iu_mad",
+        "cr_iu_pcgen",
+        "cr_iu_pcgen",
+        "cr_iu_randclk",
+        "cr_iu_randclk",
+        "cr_iu_rbus",
+        "cr_iu_rbus",
+        "cr_iu_retire",
+        "cr_iu_retire",
+        "cr_iu_special",
+        "cr_iu_special",
+        "cr_iu_vector",
+        "cr_iu_vector",
+        "cr_iu_wb",
+        "cr_iu_wb",
+        "cr_lsu_top",
+        "cr_lsu_top",
+        "cr_pmp_comp_hit",
+        "cr_pmp_comp_hit",
+        "cr_pmp_top",
+        "cr_pmp_top",
+        "cr_pwrm_top_dummy",
+        "cr_pwrm_top_dummy",
+        "cr_sahbl_top",
+        "cr_sahbl_top",
+        "cr_sys_io",
+        "cr_sys_io",
+        "cr_tcipif_top",
+        "cr_tcipif_top",
+        "ahb_fifo",
+        "ahb_fifo",
+        "ahb",
+        "ahb",
+        "apb",
+        "apb",
+        "clk_divider",
+        "clk_divider",
+        "err_gen",
+        "err_gen",
+        "px_had_sync",
+        "px_had_sync",
+        "iahb_mem_ctrl",
+        "iahb_mem_ctrl",
+        "mem_ctrl",
+        "mem_ctrl",
+        "smpu_comp_hit",
+        "smpu_comp_hit",
+        "smpu_top",
+        "smpu_top",
+        "uart",
+        "uart",
+        "wic",
+        "wic",
+        "wic_top",
+        "wic_top",
+        "timer",
+        "timer",
+        "counter",
+        "counter",
+        "tb",
+        "tb"
+    ],
+    "CompileStrategy": "fullobj",
+    "cpu_cycles_pass2_start": 3885342267457505,
+    "CompileProcesses": [
+        "cgproc.118445.json"
+    ],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 132286,
+        "text": 0,
+        "archive": "archive.0/_118445_archive_1.a"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "rlimit": {
+        "data": -1,
+        "stack": -1
+    },
+    "CompileStatus": "Successful"
+}
