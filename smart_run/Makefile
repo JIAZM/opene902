@@ -34,7 +34,7 @@ endif
 
 ifeq ($(SIM), vcs)
 TIMESCALE := -timescale=1ns/100fs
-SIMULATOR_OPT := -sverilog -full64 -kdb -lca -debug_access +nospecify +notimingchecks
+SIMULATOR_OPT := -full64 -LDFLAGS -Wl,--no-as-needed -sverilog -full64 -kdb -lca -debug_access +nospecify +notimingchecks
 SIMULATOR_DEF := +define+no_warning +define+TSMC_NO_WARNING
 SIMULATOR_LOG := -l comp.vcs.log
 else 
@@ -106,7 +106,8 @@ endif
 
 
 cleancase:
-	@cd ./work && rm -rf *.s *.S *.c *.o *.pat *.h *.lcf *.hex *.obj *.vh *.v *.report *.elf Makefile *.case.log
+	@cd ./work && rm -rf *.s *.S *.c *.o *.pat *.h *.lcf *.hex *.obj *.vh *.v *.report *.elf Makefile *.case.log 2>/dev/null
+
 
 ################################################################################
 # Combined flows
